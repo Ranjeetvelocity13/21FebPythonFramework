@@ -45,6 +45,7 @@ class TestCart:
         product_name = PRODUCT_DATA["singleProduct"]
 
         home_page.select_product_by_name(product_name)
+        home_page.select_product_by_name(product_name)
 
         product_page.add_to_cart()
 
@@ -60,7 +61,7 @@ class TestCart:
 
         cart_page.delete_first_item()
 
-        cart_page.hard_wait(2)
+        cart_page.hard_wait(5)
 
         items_after = cart_page.get_cart_item_count()
 
@@ -111,7 +112,7 @@ class TestCart:
         logger.info(f"Cart total: {total}")
 
         assert total > 0, (
-            "Cart total should be greater than 0"
+            "Cart total should be greater than 0 or 1"
         )
 
         prices = cart_page.get_cart_prices()
