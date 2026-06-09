@@ -1,0 +1,69 @@
+2026-05-21 09:23:06 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:23:06 [INFO] WDM - xdist worker is: gw1
+2026-05-21 09:23:06 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:23:07 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:07 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:07 [INFO] WDM - There is no [mac64] chromedriver "148.0.7778.178" for browser google-chrome "148.0.7778" in cache
+2026-05-21 09:23:07 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:07 [INFO] WDM - WebDriver version 148.0.7778.178 selected
+2026-05-21 09:23:07 [INFO] WDM - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-21 09:23:07 [INFO] WDM - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-21 09:23:07 [INFO] WDM - Driver downloading response is 200
+2026-05-21 09:23:18 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:18 [INFO] WDM - Driver has been saved in cache [/Users/ranjeetkendre/.wdm/gw1/drivers/chromedriver/mac64/148.0.7778.178]
+2026-05-21 09:23:22 [INFO] conftest - Browser created: chrome
+2026-05-21 09:23:22 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:23:23 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:23:23 [INFO] test_checkout - TC010: Place Order Test
+2026-05-21 09:23:23 [INFO] pages.home_page - Selecting product: Samsung galaxy s6
+2026-05-21 09:23:23 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:23:28 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:23:28 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:23:29 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:23:29 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:23:29 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:23:29 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:23:31 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:23:31 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:23:31 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:23:31 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:23:32 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:23:34 [INFO] pages.cart_page - Clicking Place Order button
+2026-05-21 09:23:34 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Place Order']")
+2026-05-21 09:23:34 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Place Order']")
+2026-05-21 09:23:34 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:23:35 [INFO] pages.checkout_page - Filling checkout form
+2026-05-21 09:23:35 [INFO] pages.checkout_page - Entering name: John Doe
+2026-05-21 09:23:35 [INFO] pages.base_page - Entering text 'John Doe' into: ('id', 'name')
+2026-05-21 09:23:36 [INFO] pages.base_page - Text entered successfully: ('id', 'name')
+2026-05-21 09:23:36 [INFO] pages.checkout_page - Entering country: USA
+2026-05-21 09:23:36 [INFO] pages.base_page - Entering text 'USA' into: ('id', 'country')
+2026-05-21 09:23:36 [INFO] pages.base_page - Text entered successfully: ('id', 'country')
+2026-05-21 09:23:36 [INFO] pages.checkout_page - Entering city: New York
+2026-05-21 09:23:36 [INFO] pages.base_page - Entering text 'New York' into: ('id', 'city')
+2026-05-21 09:23:36 [INFO] pages.base_page - Text entered successfully: ('id', 'city')
+2026-05-21 09:23:36 [INFO] pages.checkout_page - Entering card number
+2026-05-21 09:23:36 [INFO] pages.base_page - Entering text '4111111111111111' into: ('id', 'card')
+2026-05-21 09:23:36 [INFO] pages.base_page - Text entered successfully: ('id', 'card')
+2026-05-21 09:23:36 [INFO] pages.checkout_page - Entering month: 12
+2026-05-21 09:23:36 [INFO] pages.base_page - Entering text '12' into: ('id', 'month')
+2026-05-21 09:23:36 [INFO] pages.base_page - Text entered successfully: ('id', 'month')
+2026-05-21 09:23:36 [INFO] pages.checkout_page - Entering year: 2027
+2026-05-21 09:23:36 [INFO] pages.base_page - Entering text '2027' into: ('id', 'year')
+2026-05-21 09:23:36 [INFO] pages.base_page - Text entered successfully: ('id', 'year')
+2026-05-21 09:23:36 [INFO] pages.checkout_page - Checkout form filled successfully
+2026-05-21 09:23:36 [INFO] pages.checkout_page - Clicking Purchase button
+2026-05-21 09:23:36 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Purchase']")
+2026-05-21 09:23:36 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Purchase']")
+2026-05-21 09:23:36 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:23:38 [INFO] pages.checkout_page - Purchase completed
+2026-05-21 09:23:38 [INFO] pages.base_page - Element is visible: ('css selector', '.sweet-alert h2')
+2026-05-21 09:23:38 [INFO] pages.checkout_page - Getting confirmation title
+2026-05-21 09:23:38 [INFO] pages.base_page - Getting text from: ('css selector', '.sweet-alert h2')
+2026-05-21 09:23:38 [INFO] pages.base_page - Text found: 'Thank you for your purchase!'
+2026-05-21 09:23:38 [INFO] pages.checkout_page - Clicking confirmation OK
+2026-05-21 09:23:38 [INFO] pages.base_page - Clicking element: ('css selector', '.sweet-alert .confirm')
+2026-05-21 09:23:39 [INFO] pages.base_page - Clicked element: ('css selector', '.sweet-alert .confirm')
+2026-05-21 09:23:39 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:23:40 [INFO] test_checkout - TC010: PASSED - Order placed successfully
+2026-05-21 09:23:40 [INFO] conftest - Closing browser

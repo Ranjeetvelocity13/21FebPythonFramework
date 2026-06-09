@@ -1,0 +1,38 @@
+2026-05-21 09:16:37 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:16:37 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:16:38 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:16:38 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:16:38 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:16:41 [INFO] conftest - Browser created: chrome
+2026-05-21 09:16:41 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:16:42 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:16:42 [INFO] test_cart - TC008: Remove Product from Cart Test
+2026-05-21 09:16:42 [INFO] pages.home_page - Selecting product: Samsung galaxy s6
+2026-05-21 09:16:42 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:16:44 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:16:44 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:16:45 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:16:45 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:16:45 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:16:45 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:16:47 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:16:47 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:16:47 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:16:47 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:16:47 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:16:49 [INFO] pages.cart_page - Getting cart items
+2026-05-21 09:16:49 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:16:50 [INFO] pages.cart_page - Cart items: ['Samsung galaxy s6']
+2026-05-21 09:16:50 [INFO] pages.cart_page - Cart item count: 1
+2026-05-21 09:16:50 [INFO] test_cart - Cart items before delete: 1
+2026-05-21 09:16:50 [INFO] pages.cart_page - Deleting first cart item
+2026-05-21 09:16:50 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Delete']")
+2026-05-21 09:16:51 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Delete']")
+2026-05-21 09:16:51 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:16:52 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:16:54 [INFO] pages.cart_page - Getting cart items
+2026-05-21 09:16:54 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:17:05 [INFO] pages.cart_page - Cart items: []
+2026-05-21 09:17:05 [INFO] pages.cart_page - Cart item count: 0
+2026-05-21 09:17:05 [INFO] test_cart - TC008 PASSED - Item removed successfully. Before: 1, After: 0
+2026-05-21 09:17:05 [INFO] conftest - Closing browser

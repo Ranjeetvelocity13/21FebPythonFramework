@@ -1,0 +1,12 @@
+2026-05-21 09:18:15 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:18:15 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:18:16 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:18:16 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:18:16 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:18:18 [INFO] conftest - Browser created: chrome
+2026-05-21 09:18:18 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:18:20 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:18:20 [INFO] test_e2e - TC016: Broken Link Validation Test
+2026-05-21 09:18:22 [INFO] test_e2e - Total links checked: 4, broken: 0
+2026-05-21 09:18:22 [INFO] test_e2e - TC016: PASSED - No broken links found
+2026-05-21 09:18:22 [INFO] conftest - Closing browser

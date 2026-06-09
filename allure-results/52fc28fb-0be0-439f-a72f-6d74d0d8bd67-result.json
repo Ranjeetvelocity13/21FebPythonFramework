@@ -1,0 +1,1 @@
+{"name": "TC008 - Remove product from cart", "status": "skipped", "start": 1779335540981, "stop": 1779335540981, "uuid": "169a155c-e7b9-4120-8d68-8a8e34e6f742", "testCaseId": "e747494cc9fba967879879e2263b1b15", "fullName": "tests.cart.test_cart.TestCart#test_remove_product_from_cart"}

@@ -1,0 +1,63 @@
+2026-05-21 09:24:14 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:24:14 [INFO] WDM - xdist worker is: gw1
+2026-05-21 09:24:14 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:24:14 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:15 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:15 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/gw1/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:24:17 [INFO] conftest - Browser created: chrome
+2026-05-21 09:24:17 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:24:22 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:24:22 [INFO] test_product - TC007: Add Multiple Products Test
+2026-05-21 09:24:22 [INFO] pages.home_page - Selecting product: Samsung galaxy s6
+2026-05-21 09:24:22 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:24:24 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:24:24 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:25 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:24:25 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:24:25 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:24:25 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:24:27 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:24:27 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:24:27 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:24:27 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:24:27 [INFO] pages.product_page - Navigating back to home
+2026-05-21 09:24:27 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:24:28 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:24:28 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:29 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:30 [INFO] pages.home_page - Selecting product: Nokia lumia 1520
+2026-05-21 09:24:30 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Nokia lumia 1520']")
+2026-05-21 09:24:31 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Nokia lumia 1520']")
+2026-05-21 09:24:31 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:32 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:24:32 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:24:32 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:24:32 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:24:34 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:24:34 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:24:34 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:24:34 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:24:34 [INFO] pages.product_page - Navigating back to home
+2026-05-21 09:24:34 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:24:35 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:24:35 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:36 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:37 [INFO] pages.home_page - Selecting product: Nexus 6
+2026-05-21 09:24:37 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Nexus 6']")
+2026-05-21 09:24:38 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Nexus 6']")
+2026-05-21 09:24:38 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:39 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:24:39 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:24:39 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:24:39 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:24:41 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:24:41 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:24:41 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:24:41 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:24:41 [INFO] pages.product_page - Navigating back to home
+2026-05-21 09:24:41 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:24:42 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:24:42 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:43 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:44 [INFO] test_product - TC007: PASSED - 3 products added to cart
+2026-05-21 09:24:44 [INFO] conftest - Closing browser

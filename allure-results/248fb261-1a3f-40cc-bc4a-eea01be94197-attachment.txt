@@ -1,0 +1,70 @@
+2026-05-21 09:17:46 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:17:46 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:17:46 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:17:46 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:17:46 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:17:48 [INFO] conftest - Browser created: chrome
+2026-05-21 09:17:48 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:17:50 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:17:50 [INFO] test_checkout - TC011: Verify Order Confirmation Test
+2026-05-21 09:17:50 [INFO] pages.home_page - Selecting product: Samsung galaxy s6
+2026-05-21 09:17:50 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:17:52 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:17:52 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:17:53 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:17:53 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:17:53 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:17:53 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:17:55 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:17:55 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:17:55 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:17:55 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:17:56 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:17:58 [INFO] pages.cart_page - Clicking Place Order button
+2026-05-21 09:17:58 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Place Order']")
+2026-05-21 09:17:58 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Place Order']")
+2026-05-21 09:17:58 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:17:59 [INFO] pages.checkout_page - Filling checkout form
+2026-05-21 09:17:59 [INFO] pages.checkout_page - Entering name: John Doe
+2026-05-21 09:17:59 [INFO] pages.base_page - Entering text 'John Doe' into: ('id', 'name')
+2026-05-21 09:17:59 [INFO] pages.base_page - Text entered successfully: ('id', 'name')
+2026-05-21 09:17:59 [INFO] pages.checkout_page - Entering country: USA
+2026-05-21 09:17:59 [INFO] pages.base_page - Entering text 'USA' into: ('id', 'country')
+2026-05-21 09:17:59 [INFO] pages.base_page - Text entered successfully: ('id', 'country')
+2026-05-21 09:17:59 [INFO] pages.checkout_page - Entering city: New York
+2026-05-21 09:17:59 [INFO] pages.base_page - Entering text 'New York' into: ('id', 'city')
+2026-05-21 09:17:59 [INFO] pages.base_page - Text entered successfully: ('id', 'city')
+2026-05-21 09:17:59 [INFO] pages.checkout_page - Entering card number
+2026-05-21 09:17:59 [INFO] pages.base_page - Entering text '4111111111111111' into: ('id', 'card')
+2026-05-21 09:17:59 [INFO] pages.base_page - Text entered successfully: ('id', 'card')
+2026-05-21 09:17:59 [INFO] pages.checkout_page - Entering month: 12
+2026-05-21 09:17:59 [INFO] pages.base_page - Entering text '12' into: ('id', 'month')
+2026-05-21 09:17:59 [INFO] pages.base_page - Text entered successfully: ('id', 'month')
+2026-05-21 09:17:59 [INFO] pages.checkout_page - Entering year: 2027
+2026-05-21 09:17:59 [INFO] pages.base_page - Entering text '2027' into: ('id', 'year')
+2026-05-21 09:17:59 [INFO] pages.base_page - Text entered successfully: ('id', 'year')
+2026-05-21 09:17:59 [INFO] pages.checkout_page - Checkout form filled successfully
+2026-05-21 09:17:59 [INFO] pages.checkout_page - Clicking Purchase button
+2026-05-21 09:17:59 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Purchase']")
+2026-05-21 09:17:59 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Purchase']")
+2026-05-21 09:17:59 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:18:01 [INFO] pages.checkout_page - Purchase completed
+2026-05-21 09:18:01 [INFO] pages.base_page - Element is visible: ('css selector', '.sweet-alert h2')
+2026-05-21 09:18:01 [INFO] pages.checkout_page - Getting confirmation details
+2026-05-21 09:18:01 [INFO] pages.base_page - Getting text from: ('css selector', '.sweet-alert .lead')
+2026-05-21 09:18:01 [INFO] pages.base_page - Text found: 'Id: 2259819
+Amount: 360 USD
+Card Number: 4111111111111111
+Name: John Doe
+Date: 21/4/2026'
+2026-05-21 09:18:01 [INFO] test_checkout - Confirmation details: Id: 2259819
+Amount: 360 USD
+Card Number: 4111111111111111
+Name: John Doe
+Date: 21/4/2026
+2026-05-21 09:18:01 [INFO] pages.checkout_page - Clicking confirmation OK
+2026-05-21 09:18:01 [INFO] pages.base_page - Clicking element: ('css selector', '.sweet-alert .confirm')
+2026-05-21 09:18:02 [INFO] pages.base_page - Clicked element: ('css selector', '.sweet-alert .confirm')
+2026-05-21 09:18:02 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:18:03 [INFO] test_checkout - TC011: PASSED - Order confirmation details verified
+2026-05-21 09:18:03 [INFO] conftest - Closing browser

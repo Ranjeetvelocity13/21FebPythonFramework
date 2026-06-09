@@ -1,0 +1,2016 @@
+2026-05-21 09:15:19 [INFO] root - Logger initialized successfully
+2026-05-21 09:15:19 [INFO] root - Logger initialized successfully
+2026-05-21 09:15:19 [INFO] conftest - Output directories created
+2026-05-21 09:15:19 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:15:19 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:15:21 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:15:21 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:15:21 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:15:21 [INFO] WDM - WebDriver version 148.0.7778.178 selected
+2026-05-21 09:15:21 [INFO] WDM - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-21 09:15:21 [INFO] WDM - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-21 09:15:21 [INFO] WDM - Driver downloading response is 200
+2026-05-21 09:15:23 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:15:23 [INFO] WDM - Driver has been saved in cache [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178]
+2026-05-21 09:15:26 [INFO] conftest - Browser created: chrome
+2026-05-21 09:15:26 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:15:27 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:15:27 [INFO] test_login - TC001: Valid Login Test
+2026-05-21 09:15:27 [INFO] pages.login_page - Performing login with user: pavanol
+2026-05-21 09:15:27 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:15:27 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:15:28 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:15:28 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:15:29 [INFO] pages.login_page - Entering username: pavanol
+2026-05-21 09:15:29 [INFO] pages.base_page - Entering text 'pavanol' into: ('id', 'loginusername')
+2026-05-21 09:15:29 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:15:29 [INFO] pages.login_page - Entering password
+2026-05-21 09:15:29 [INFO] pages.base_page - Entering text 'test@123' into: ('id', 'loginpassword')
+2026-05-21 09:15:29 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:15:29 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:15:29 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:15:29 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:15:29 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:15:31 [INFO] pages.login_page - Checking if user is logged in
+2026-05-21 09:15:31 [INFO] pages.base_page - Element is visible: ('id', 'nameofuser')
+2026-05-21 09:15:31 [INFO] pages.login_page - Getting welcome message
+2026-05-21 09:15:31 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:15:33 [INFO] pages.base_page - Getting text from: ('id', 'nameofuser')
+2026-05-21 09:15:33 [INFO] pages.base_page - Text found: 'Welcome pavanol'
+2026-05-21 09:15:33 [INFO] test_login - TC001: PASSED - Valid login successful
+2026-05-21 09:15:33 [INFO] conftest - Closing browser
+2026-05-21 09:15:33 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:15:33 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:15:34 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:15:34 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:15:34 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:15:37 [INFO] conftest - Browser created: chrome
+2026-05-21 09:15:37 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:15:38 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:15:38 [INFO] test_login - TC002: Invalid Login Test
+2026-05-21 09:15:38 [INFO] pages.login_page - Performing login with user: invaliduser123
+2026-05-21 09:15:38 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:15:38 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:15:38 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:15:38 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:15:39 [INFO] pages.login_page - Entering username: invaliduser123
+2026-05-21 09:15:39 [INFO] pages.base_page - Entering text 'invaliduser123' into: ('id', 'loginusername')
+2026-05-21 09:15:39 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:15:39 [INFO] pages.login_page - Entering password
+2026-05-21 09:15:39 [INFO] pages.base_page - Entering text 'wrongpass' into: ('id', 'loginpassword')
+2026-05-21 09:15:40 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:15:40 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:15:40 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:15:40 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:15:40 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:15:42 [INFO] pages.login_page - Getting alert message
+2026-05-21 09:15:42 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:15:42 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:15:42 [INFO] pages.base_page - Alert accepted. Text was: 'User does not exist.'
+2026-05-21 09:15:42 [INFO] test_login - TC002: PASSED - Invalid login shows error
+2026-05-21 09:15:42 [INFO] conftest - Closing browser
+2026-05-21 09:15:42 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:15:42 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:15:43 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:15:44 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:15:44 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:15:46 [INFO] conftest - Browser created: chrome
+2026-05-21 09:15:46 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:15:47 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:15:47 [INFO] test_login - TC003: Blank Username Test
+2026-05-21 09:15:47 [INFO] pages.login_page - Performing login with user: 
+2026-05-21 09:15:47 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:15:47 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:15:47 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:15:47 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:15:48 [INFO] pages.login_page - Entering username: 
+2026-05-21 09:15:48 [INFO] pages.base_page - Entering text '' into: ('id', 'loginusername')
+2026-05-21 09:15:48 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:15:48 [INFO] pages.login_page - Entering password
+2026-05-21 09:15:48 [INFO] pages.base_page - Entering text 'test@123' into: ('id', 'loginpassword')
+2026-05-21 09:15:49 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:15:49 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:15:49 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:15:49 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:15:49 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:15:51 [INFO] pages.login_page - Getting alert message
+2026-05-21 09:15:51 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:15:51 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:15:51 [INFO] pages.base_page - Alert accepted. Text was: 'Please fill out Username and Password.'
+2026-05-21 09:15:51 [INFO] test_login - TC003: PASSED - Blank username shows error
+2026-05-21 09:15:51 [INFO] conftest - Closing browser
+2026-05-21 09:15:51 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:15:51 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:15:52 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:15:52 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:15:53 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:15:55 [INFO] conftest - Browser created: chrome
+2026-05-21 09:15:55 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:15:56 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:15:56 [INFO] test_login - TC004: Blank Password Test
+2026-05-21 09:15:56 [INFO] pages.login_page - Performing login with user: pavanol
+2026-05-21 09:15:56 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:15:56 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:15:56 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:15:56 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:15:57 [INFO] pages.login_page - Entering username: pavanol
+2026-05-21 09:15:57 [INFO] pages.base_page - Entering text 'pavanol' into: ('id', 'loginusername')
+2026-05-21 09:15:57 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:15:57 [INFO] pages.login_page - Entering password
+2026-05-21 09:15:57 [INFO] pages.base_page - Entering text '' into: ('id', 'loginpassword')
+2026-05-21 09:15:57 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:15:57 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:15:57 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:15:57 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:15:58 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:16:00 [INFO] pages.login_page - Getting alert message
+2026-05-21 09:16:00 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:16:00 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:16:00 [INFO] pages.base_page - Alert accepted. Text was: 'Please fill out Username and Password.'
+2026-05-21 09:16:00 [INFO] test_login - TC004: PASSED - Blank password shows error
+2026-05-21 09:16:00 [INFO] conftest - Closing browser
+2026-05-21 09:16:00 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:16:00 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:16:01 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:16:01 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:16:01 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:16:03 [INFO] conftest - Browser created: chrome
+2026-05-21 09:16:03 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:16:05 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:16:05 [INFO] test_login - TC005: Logout Test
+2026-05-21 09:16:05 [INFO] pages.login_page - Performing login with user: pavanol
+2026-05-21 09:16:05 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:16:05 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:16:05 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:16:05 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:16:06 [INFO] pages.login_page - Entering username: pavanol
+2026-05-21 09:16:06 [INFO] pages.base_page - Entering text 'pavanol' into: ('id', 'loginusername')
+2026-05-21 09:16:06 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:16:06 [INFO] pages.login_page - Entering password
+2026-05-21 09:16:06 [INFO] pages.base_page - Entering text 'test@123' into: ('id', 'loginpassword')
+2026-05-21 09:16:06 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:16:06 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:16:06 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:16:07 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:16:07 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:16:09 [INFO] pages.login_page - Checking if user is logged in
+2026-05-21 09:16:09 [INFO] pages.base_page - Element is visible: ('id', 'nameofuser')
+2026-05-21 09:16:09 [INFO] pages.login_page - Performing logout
+2026-05-21 09:16:09 [INFO] pages.base_page - Clicking element: ('id', 'logout2')
+2026-05-21 09:16:09 [INFO] pages.base_page - Clicked element: ('id', 'logout2')
+2026-05-21 09:16:09 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:16:10 [INFO] pages.login_page - Logout successful
+2026-05-21 09:16:15 [INFO] pages.base_page - Element is NOT visible: ('id', 'login2')
+2026-05-21 09:16:16 [INFO] utilities.screenshot_util - Screenshot saved: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/21FebPythonFramewrk/screenshots/test_logout_20260521_091616.png
+2026-05-21 09:16:16 [ERROR] conftest - TEST FAILED: test_logout - Screenshot: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/21FebPythonFramewrk/screenshots/test_logout_20260521_091616.png
+2026-05-21 09:16:16 [INFO] conftest - Closing browser
+2026-05-21 09:16:16 [INFO] conftest - ============================================================
+2026-05-21 09:16:16 [INFO] conftest - TEST EXECUTION SUMMARY
+2026-05-21 09:16:16 [INFO] conftest - Total: 5 | Passed: 4 | Failed: 1 | Skipped: 0
+2026-05-21 09:16:16 [INFO] conftest - ============================================================
+2026-05-21 09:16:37 [INFO] root - Logger initialized successfully
+2026-05-21 09:16:37 [INFO] root - Logger initialized successfully
+2026-05-21 09:16:37 [INFO] conftest - Output directories created
+2026-05-21 09:16:37 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:16:37 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:16:38 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:16:38 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:16:38 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:16:41 [INFO] conftest - Browser created: chrome
+2026-05-21 09:16:41 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:16:42 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:16:42 [INFO] test_cart - TC008: Remove Product from Cart Test
+2026-05-21 09:16:42 [INFO] pages.home_page - Selecting product: Samsung galaxy s6
+2026-05-21 09:16:42 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:16:44 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:16:44 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:16:45 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:16:45 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:16:45 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:16:45 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:16:47 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:16:47 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:16:47 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:16:47 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:16:47 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:16:49 [INFO] pages.cart_page - Getting cart items
+2026-05-21 09:16:49 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:16:50 [INFO] pages.cart_page - Cart items: ['Samsung galaxy s6']
+2026-05-21 09:16:50 [INFO] pages.cart_page - Cart item count: 1
+2026-05-21 09:16:50 [INFO] test_cart - Cart items before delete: 1
+2026-05-21 09:16:50 [INFO] pages.cart_page - Deleting first cart item
+2026-05-21 09:16:50 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Delete']")
+2026-05-21 09:16:51 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Delete']")
+2026-05-21 09:16:51 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:16:52 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:16:54 [INFO] pages.cart_page - Getting cart items
+2026-05-21 09:16:54 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:17:05 [INFO] pages.cart_page - Cart items: []
+2026-05-21 09:17:05 [INFO] pages.cart_page - Cart item count: 0
+2026-05-21 09:17:05 [INFO] test_cart - TC008 PASSED - Item removed successfully. Before: 1, After: 0
+2026-05-21 09:17:05 [INFO] conftest - Closing browser
+2026-05-21 09:17:05 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:17:05 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:17:05 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:17:06 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:17:06 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:17:08 [INFO] conftest - Browser created: chrome
+2026-05-21 09:17:08 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:17:09 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:17:09 [INFO] test_cart - TC009: Verify Cart Total Test
+2026-05-21 09:17:09 [INFO] pages.home_page - Selecting product: Samsung galaxy s6
+2026-05-21 09:17:09 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:17:11 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:17:11 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:17:12 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:17:12 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:17:12 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:17:12 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:17:14 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:17:14 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:17:14 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:17:14 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:17:14 [INFO] pages.product_page - Navigating back to home
+2026-05-21 09:17:14 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:17:14 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:17:14 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:17:15 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:17:16 [INFO] pages.home_page - Selecting product: Nokia lumia 1520
+2026-05-21 09:17:16 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Nokia lumia 1520']")
+2026-05-21 09:17:17 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Nokia lumia 1520']")
+2026-05-21 09:17:17 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:17:18 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:17:18 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:17:18 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:17:18 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:17:20 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:17:20 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:17:20 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:17:20 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:17:20 [INFO] pages.product_page - Navigating back to home
+2026-05-21 09:17:20 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:17:20 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:17:20 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:17:21 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:17:23 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:17:25 [INFO] pages.cart_page - Getting total price
+2026-05-21 09:17:25 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:17:26 [INFO] pages.base_page - Getting text from: ('id', 'totalp')
+2026-05-21 09:17:26 [INFO] pages.base_page - Text found: '1180'
+2026-05-21 09:17:26 [INFO] pages.cart_page - Total price: 1180
+2026-05-21 09:17:26 [INFO] test_cart - Cart total: 1180
+2026-05-21 09:17:26 [INFO] pages.cart_page - Getting cart prices
+2026-05-21 09:17:26 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:17:27 [INFO] pages.cart_page - Cart prices: ['360', '820']
+2026-05-21 09:17:27 [INFO] test_cart - Sum of prices: 1180, Displayed total: 1180
+2026-05-21 09:17:27 [INFO] test_cart - TC009 PASSED - Cart total verified successfully
+2026-05-21 09:17:27 [INFO] conftest - Closing browser
+2026-05-21 09:17:27 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:17:27 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:17:29 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:17:29 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:17:29 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:17:31 [INFO] conftest - Browser created: chrome
+2026-05-21 09:17:31 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:17:33 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:17:33 [INFO] test_checkout - TC010: Place Order Test
+2026-05-21 09:17:33 [INFO] pages.home_page - Selecting product: Samsung galaxy s6
+2026-05-21 09:17:33 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:17:34 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:17:34 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:17:35 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:17:35 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:17:35 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:17:35 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:17:37 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:17:37 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:17:37 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:17:37 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:17:38 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:17:40 [INFO] pages.cart_page - Clicking Place Order button
+2026-05-21 09:17:40 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Place Order']")
+2026-05-21 09:17:40 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Place Order']")
+2026-05-21 09:17:40 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:17:41 [INFO] pages.checkout_page - Filling checkout form
+2026-05-21 09:17:41 [INFO] pages.checkout_page - Entering name: John Doe
+2026-05-21 09:17:41 [INFO] pages.base_page - Entering text 'John Doe' into: ('id', 'name')
+2026-05-21 09:17:41 [INFO] pages.base_page - Text entered successfully: ('id', 'name')
+2026-05-21 09:17:41 [INFO] pages.checkout_page - Entering country: USA
+2026-05-21 09:17:41 [INFO] pages.base_page - Entering text 'USA' into: ('id', 'country')
+2026-05-21 09:17:41 [INFO] pages.base_page - Text entered successfully: ('id', 'country')
+2026-05-21 09:17:41 [INFO] pages.checkout_page - Entering city: New York
+2026-05-21 09:17:41 [INFO] pages.base_page - Entering text 'New York' into: ('id', 'city')
+2026-05-21 09:17:42 [INFO] pages.base_page - Text entered successfully: ('id', 'city')
+2026-05-21 09:17:42 [INFO] pages.checkout_page - Entering card number
+2026-05-21 09:17:42 [INFO] pages.base_page - Entering text '4111111111111111' into: ('id', 'card')
+2026-05-21 09:17:42 [INFO] pages.base_page - Text entered successfully: ('id', 'card')
+2026-05-21 09:17:42 [INFO] pages.checkout_page - Entering month: 12
+2026-05-21 09:17:42 [INFO] pages.base_page - Entering text '12' into: ('id', 'month')
+2026-05-21 09:17:42 [INFO] pages.base_page - Text entered successfully: ('id', 'month')
+2026-05-21 09:17:42 [INFO] pages.checkout_page - Entering year: 2027
+2026-05-21 09:17:42 [INFO] pages.base_page - Entering text '2027' into: ('id', 'year')
+2026-05-21 09:17:42 [INFO] pages.base_page - Text entered successfully: ('id', 'year')
+2026-05-21 09:17:42 [INFO] pages.checkout_page - Checkout form filled successfully
+2026-05-21 09:17:42 [INFO] pages.checkout_page - Clicking Purchase button
+2026-05-21 09:17:42 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Purchase']")
+2026-05-21 09:17:42 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Purchase']")
+2026-05-21 09:17:42 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:17:44 [INFO] pages.checkout_page - Purchase completed
+2026-05-21 09:17:44 [INFO] pages.base_page - Element is visible: ('css selector', '.sweet-alert h2')
+2026-05-21 09:17:44 [INFO] pages.checkout_page - Getting confirmation title
+2026-05-21 09:17:44 [INFO] pages.base_page - Getting text from: ('css selector', '.sweet-alert h2')
+2026-05-21 09:17:44 [INFO] pages.base_page - Text found: 'Thank you for your purchase!'
+2026-05-21 09:17:44 [INFO] pages.checkout_page - Clicking confirmation OK
+2026-05-21 09:17:44 [INFO] pages.base_page - Clicking element: ('css selector', '.sweet-alert .confirm')
+2026-05-21 09:17:45 [INFO] pages.base_page - Clicked element: ('css selector', '.sweet-alert .confirm')
+2026-05-21 09:17:45 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:17:46 [INFO] test_checkout - TC010: PASSED - Order placed successfully
+2026-05-21 09:17:46 [INFO] conftest - Closing browser
+2026-05-21 09:17:46 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:17:46 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:17:46 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:17:46 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:17:46 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:17:48 [INFO] conftest - Browser created: chrome
+2026-05-21 09:17:48 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:17:50 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:17:50 [INFO] test_checkout - TC011: Verify Order Confirmation Test
+2026-05-21 09:17:50 [INFO] pages.home_page - Selecting product: Samsung galaxy s6
+2026-05-21 09:17:50 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:17:52 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:17:52 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:17:53 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:17:53 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:17:53 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:17:53 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:17:55 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:17:55 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:17:55 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:17:55 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:17:56 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:17:58 [INFO] pages.cart_page - Clicking Place Order button
+2026-05-21 09:17:58 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Place Order']")
+2026-05-21 09:17:58 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Place Order']")
+2026-05-21 09:17:58 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:17:59 [INFO] pages.checkout_page - Filling checkout form
+2026-05-21 09:17:59 [INFO] pages.checkout_page - Entering name: John Doe
+2026-05-21 09:17:59 [INFO] pages.base_page - Entering text 'John Doe' into: ('id', 'name')
+2026-05-21 09:17:59 [INFO] pages.base_page - Text entered successfully: ('id', 'name')
+2026-05-21 09:17:59 [INFO] pages.checkout_page - Entering country: USA
+2026-05-21 09:17:59 [INFO] pages.base_page - Entering text 'USA' into: ('id', 'country')
+2026-05-21 09:17:59 [INFO] pages.base_page - Text entered successfully: ('id', 'country')
+2026-05-21 09:17:59 [INFO] pages.checkout_page - Entering city: New York
+2026-05-21 09:17:59 [INFO] pages.base_page - Entering text 'New York' into: ('id', 'city')
+2026-05-21 09:17:59 [INFO] pages.base_page - Text entered successfully: ('id', 'city')
+2026-05-21 09:17:59 [INFO] pages.checkout_page - Entering card number
+2026-05-21 09:17:59 [INFO] pages.base_page - Entering text '4111111111111111' into: ('id', 'card')
+2026-05-21 09:17:59 [INFO] pages.base_page - Text entered successfully: ('id', 'card')
+2026-05-21 09:17:59 [INFO] pages.checkout_page - Entering month: 12
+2026-05-21 09:17:59 [INFO] pages.base_page - Entering text '12' into: ('id', 'month')
+2026-05-21 09:17:59 [INFO] pages.base_page - Text entered successfully: ('id', 'month')
+2026-05-21 09:17:59 [INFO] pages.checkout_page - Entering year: 2027
+2026-05-21 09:17:59 [INFO] pages.base_page - Entering text '2027' into: ('id', 'year')
+2026-05-21 09:17:59 [INFO] pages.base_page - Text entered successfully: ('id', 'year')
+2026-05-21 09:17:59 [INFO] pages.checkout_page - Checkout form filled successfully
+2026-05-21 09:17:59 [INFO] pages.checkout_page - Clicking Purchase button
+2026-05-21 09:17:59 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Purchase']")
+2026-05-21 09:17:59 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Purchase']")
+2026-05-21 09:17:59 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:18:01 [INFO] pages.checkout_page - Purchase completed
+2026-05-21 09:18:01 [INFO] pages.base_page - Element is visible: ('css selector', '.sweet-alert h2')
+2026-05-21 09:18:01 [INFO] pages.checkout_page - Getting confirmation details
+2026-05-21 09:18:01 [INFO] pages.base_page - Getting text from: ('css selector', '.sweet-alert .lead')
+2026-05-21 09:18:01 [INFO] pages.base_page - Text found: 'Id: 2259819
+Amount: 360 USD
+Card Number: 4111111111111111
+Name: John Doe
+Date: 21/4/2026'
+2026-05-21 09:18:01 [INFO] test_checkout - Confirmation details: Id: 2259819
+Amount: 360 USD
+Card Number: 4111111111111111
+Name: John Doe
+Date: 21/4/2026
+2026-05-21 09:18:01 [INFO] pages.checkout_page - Clicking confirmation OK
+2026-05-21 09:18:01 [INFO] pages.base_page - Clicking element: ('css selector', '.sweet-alert .confirm')
+2026-05-21 09:18:02 [INFO] pages.base_page - Clicked element: ('css selector', '.sweet-alert .confirm')
+2026-05-21 09:18:02 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:18:03 [INFO] test_checkout - TC011: PASSED - Order confirmation details verified
+2026-05-21 09:18:03 [INFO] conftest - Closing browser
+2026-05-21 09:18:03 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:18:03 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:18:04 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:18:04 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:18:04 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:18:06 [INFO] conftest - Browser created: chrome
+2026-05-21 09:18:06 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:18:07 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:18:07 [INFO] test_contact - TC015: Contact Form Submission Test
+2026-05-21 09:18:07 [INFO] utilities.random_data_generator - Generated email: test_qogsa_091807@test.com
+2026-05-21 09:18:07 [INFO] utilities.random_data_generator - Generated name: Maria
+2026-05-21 09:18:07 [INFO] pages.home_page - Clicking Contact link
+2026-05-21 09:18:07 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Contact']")
+2026-05-21 09:18:07 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Contact']")
+2026-05-21 09:18:07 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:18:08 [INFO] pages.contact_page - Filling and sending contact form
+2026-05-21 09:18:08 [INFO] pages.contact_page - Entering contact email: test_qogsa_091807@test.com
+2026-05-21 09:18:08 [INFO] pages.base_page - Entering text 'test_qogsa_091807@test.com' into: ('id', 'recipient-email')
+2026-05-21 09:18:09 [INFO] pages.base_page - Text entered successfully: ('id', 'recipient-email')
+2026-05-21 09:18:09 [INFO] pages.contact_page - Entering contact name: Maria
+2026-05-21 09:18:09 [INFO] pages.base_page - Entering text 'Maria' into: ('id', 'recipient-name')
+2026-05-21 09:18:09 [INFO] pages.base_page - Text entered successfully: ('id', 'recipient-name')
+2026-05-21 09:18:09 [INFO] pages.contact_page - Entering message: This is an automated test message for contact form...
+2026-05-21 09:18:09 [INFO] pages.base_page - Entering text 'This is an automated test message for contact form validation.' into: ('id', 'message-text')
+2026-05-21 09:18:09 [INFO] pages.base_page - Text entered successfully: ('id', 'message-text')
+2026-05-21 09:18:09 [INFO] pages.contact_page - Clicking Send message button
+2026-05-21 09:18:09 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Send message']")
+2026-05-21 09:18:09 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Send message']")
+2026-05-21 09:18:09 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:18:10 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:18:10 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:18:10 [INFO] pages.base_page - Alert accepted. Text was: 'Thanks for the message!!'
+2026-05-21 09:18:10 [INFO] pages.contact_page - Contact alert: Thanks for the message!!
+2026-05-21 09:18:10 [INFO] test_contact - Contact form alert: Thanks for the message!!
+2026-05-21 09:18:10 [INFO] test_contact - TC015: PASSED - Contact form submitted successfully
+2026-05-21 09:18:10 [INFO] conftest - Closing browser
+2026-05-21 09:18:10 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:18:10 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:18:11 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:18:11 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:18:11 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:18:13 [INFO] conftest - Browser created: chrome
+2026-05-21 09:18:13 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:18:15 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:18:15 [INFO] test_e2e - TC014: Verify Navigation Menu Test
+2026-05-21 09:18:15 [INFO] pages.base_page - Element is visible: ('xpath', "//a[contains(@class,'nav-link') and text()='Home ']")
+2026-05-21 09:18:15 [INFO] pages.base_page - Element is visible: ('xpath', "//a[text()='Contact']")
+2026-05-21 09:18:15 [INFO] pages.base_page - Element is visible: ('id', 'cartur')
+2026-05-21 09:18:15 [INFO] pages.home_page - Navigation - Home: True, Contact: True, Cart: True
+2026-05-21 09:18:15 [INFO] pages.base_page - Element is visible: ('id', 'carouselExampleIndicators')
+2026-05-21 09:18:15 [INFO] test_e2e - TC014: PASSED - Navigation menu verified
+2026-05-21 09:18:15 [INFO] conftest - Closing browser
+2026-05-21 09:18:15 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:18:15 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:18:16 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:18:16 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:18:16 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:18:18 [INFO] conftest - Browser created: chrome
+2026-05-21 09:18:18 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:18:20 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:18:20 [INFO] test_e2e - TC016: Broken Link Validation Test
+2026-05-21 09:18:22 [INFO] test_e2e - Total links checked: 4, broken: 0
+2026-05-21 09:18:22 [INFO] test_e2e - TC016: PASSED - No broken links found
+2026-05-21 09:18:22 [INFO] conftest - Closing browser
+2026-05-21 09:18:22 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:18:22 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:18:23 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:18:23 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:18:23 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:18:25 [INFO] conftest - Browser created: chrome
+2026-05-21 09:18:25 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:18:26 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:18:26 [INFO] test_e2e - TC017: Search/Browse Product Test
+2026-05-21 09:18:26 [INFO] pages.home_page - Selecting Phones category
+2026-05-21 09:18:26 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Phones']")
+2026-05-21 09:18:26 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Phones']")
+2026-05-21 09:18:26 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:18:27 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:18:29 [INFO] pages.home_page - Product names: ['Samsung galaxy s6', 'Nokia lumia 1520', 'Nexus 6', 'Samsung galaxy s7', 'Iphone 6 32gb', 'Sony xperia z5', 'HTC One M9']
+2026-05-21 09:18:29 [INFO] test_e2e - Phone products: ['Samsung galaxy s6', 'Nokia lumia 1520', 'Nexus 6', 'Samsung galaxy s7', 'Iphone 6 32gb', 'Sony xperia z5', 'HTC One M9']
+2026-05-21 09:18:29 [INFO] pages.base_page - Element is visible: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:18:29 [INFO] test_e2e - TC017: PASSED - Product 'Samsung galaxy s6' found in category
+2026-05-21 09:18:29 [INFO] conftest - Closing browser
+2026-05-21 09:18:29 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:18:29 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:18:30 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:18:30 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:18:30 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:18:33 [INFO] conftest - Browser created: chrome
+2026-05-21 09:18:33 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:18:34 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:18:34 [INFO] test_e2e - TC018: Cross Browser Test
+2026-05-21 09:18:34 [INFO] pages.base_page - Element is visible: ('id', 'carouselExampleIndicators')
+2026-05-21 09:18:34 [INFO] pages.base_page - Page title: STORE
+2026-05-21 09:18:34 [INFO] test_e2e - Page title: STORE
+2026-05-21 09:18:34 [INFO] pages.base_page - Element is visible: ('xpath', "//a[text()='Phones']")
+2026-05-21 09:18:34 [INFO] pages.base_page - Element is visible: ('xpath', "//a[text()='Laptops']")
+2026-05-21 09:18:34 [INFO] pages.base_page - Element is visible: ('xpath', "//a[text()='Monitors']")
+2026-05-21 09:18:34 [INFO] pages.home_page - Categories visible - Phones: True, Laptops: True, Monitors: True
+2026-05-21 09:18:34 [INFO] test_e2e - TC018: PASSED - Cross browser verification complete
+2026-05-21 09:18:34 [INFO] conftest - Closing browser
+2026-05-21 09:18:35 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:18:35 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:18:36 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:18:36 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:18:36 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:18:38 [INFO] conftest - Browser created: chrome
+2026-05-21 09:18:38 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:18:39 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:18:39 [INFO] test_e2e - TC019: Parallel Execution Test
+2026-05-21 09:18:39 [INFO] pages.base_page - Element is visible: ('id', 'carouselExampleIndicators')
+2026-05-21 09:18:39 [INFO] pages.home_page - Selecting Laptops category
+2026-05-21 09:18:39 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Laptops']")
+2026-05-21 09:18:39 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Laptops']")
+2026-05-21 09:18:39 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:18:40 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:18:41 [INFO] pages.home_page - Product names: ['Sony vaio i5', 'Sony vaio i7', 'MacBook air', 'Dell i7 8gb', '2017 Dell 15.6 Inch', 'MacBook Pro']
+2026-05-21 09:18:41 [INFO] test_e2e - TC019: PASSED - 6 laptop products found
+2026-05-21 09:18:41 [INFO] conftest - Closing browser
+2026-05-21 09:18:41 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:18:41 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:18:43 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:18:43 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:18:43 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:18:45 [INFO] conftest - Browser created: chrome
+2026-05-21 09:18:45 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:18:47 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:18:47 [INFO] test_e2e - TC020: Full E2E Purchase Flow
+2026-05-21 09:18:47 [INFO] pages.login_page - Performing login with user: pavanol
+2026-05-21 09:18:47 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:18:47 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:18:47 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:18:47 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:18:48 [INFO] pages.login_page - Entering username: pavanol
+2026-05-21 09:18:48 [INFO] pages.base_page - Entering text 'pavanol' into: ('id', 'loginusername')
+2026-05-21 09:18:48 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:18:48 [INFO] pages.login_page - Entering password
+2026-05-21 09:18:48 [INFO] pages.base_page - Entering text 'test@123' into: ('id', 'loginpassword')
+2026-05-21 09:18:48 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:18:48 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:18:48 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:18:48 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:18:48 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:18:50 [INFO] pages.login_page - Checking if user is logged in
+2026-05-21 09:18:50 [INFO] pages.base_page - Element is visible: ('id', 'nameofuser')
+2026-05-21 09:18:50 [INFO] test_e2e - Step 1: Login - DONE
+2026-05-21 09:18:50 [INFO] pages.home_page - Selecting Phones category
+2026-05-21 09:18:50 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Phones']")
+2026-05-21 09:18:51 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Phones']")
+2026-05-21 09:18:51 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:18:52 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:18:53 [INFO] test_e2e - Step 2: Browse products - DONE
+2026-05-21 09:18:53 [INFO] pages.home_page - Selecting product: Samsung galaxy s6
+2026-05-21 09:18:53 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:18:53 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:18:53 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:18:54 [INFO] test_e2e - Step 3: Selected product 'Samsung galaxy s6' - DONE
+2026-05-21 09:18:54 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:18:54 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:19:14 [ERROR] pages.base_page - Element not clickable: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:19:15 [INFO] utilities.screenshot_util - Screenshot saved: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/21FebPythonFramewrk/screenshots/test_full_e2e_purchase_20260521_091914.png
+2026-05-21 09:19:15 [ERROR] conftest - TEST FAILED: test_full_e2e_purchase - Screenshot: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/21FebPythonFramewrk/screenshots/test_full_e2e_purchase_20260521_091914.png
+2026-05-21 09:19:15 [INFO] conftest - Closing browser
+2026-05-21 09:19:15 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:19:15 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:19:16 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:19:16 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:19:16 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:19:18 [INFO] conftest - Browser created: chrome
+2026-05-21 09:19:18 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:19:20 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:19:20 [INFO] test_login - TC001: Valid Login Test
+2026-05-21 09:19:20 [INFO] pages.login_page - Performing login with user: pavanol
+2026-05-21 09:19:20 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:19:20 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:19:20 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:19:20 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:19:21 [INFO] pages.login_page - Entering username: pavanol
+2026-05-21 09:19:21 [INFO] pages.base_page - Entering text 'pavanol' into: ('id', 'loginusername')
+2026-05-21 09:19:21 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:19:21 [INFO] pages.login_page - Entering password
+2026-05-21 09:19:21 [INFO] pages.base_page - Entering text 'test@123' into: ('id', 'loginpassword')
+2026-05-21 09:19:21 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:19:21 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:19:21 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:19:21 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:19:21 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:19:23 [INFO] pages.login_page - Checking if user is logged in
+2026-05-21 09:19:23 [INFO] pages.base_page - Element is visible: ('id', 'nameofuser')
+2026-05-21 09:19:23 [INFO] pages.login_page - Getting welcome message
+2026-05-21 09:19:23 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:19:25 [INFO] pages.base_page - Getting text from: ('id', 'nameofuser')
+2026-05-21 09:19:25 [INFO] pages.base_page - Text found: 'Welcome pavanol'
+2026-05-21 09:19:25 [INFO] test_login - TC001: PASSED - Valid login successful
+2026-05-21 09:19:25 [INFO] conftest - Closing browser
+2026-05-21 09:19:25 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:19:25 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:19:27 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:19:27 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:19:27 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:19:29 [INFO] conftest - Browser created: chrome
+2026-05-21 09:19:29 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:19:30 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:19:30 [INFO] test_login - TC002: Invalid Login Test
+2026-05-21 09:19:30 [INFO] pages.login_page - Performing login with user: invaliduser123
+2026-05-21 09:19:30 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:19:30 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:19:31 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:19:31 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:19:32 [INFO] pages.login_page - Entering username: invaliduser123
+2026-05-21 09:19:32 [INFO] pages.base_page - Entering text 'invaliduser123' into: ('id', 'loginusername')
+2026-05-21 09:19:32 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:19:32 [INFO] pages.login_page - Entering password
+2026-05-21 09:19:32 [INFO] pages.base_page - Entering text 'wrongpass' into: ('id', 'loginpassword')
+2026-05-21 09:19:32 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:19:32 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:19:32 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:19:32 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:19:32 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:19:34 [INFO] pages.login_page - Getting alert message
+2026-05-21 09:19:34 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:19:34 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:19:34 [INFO] pages.base_page - Alert accepted. Text was: 'User does not exist.'
+2026-05-21 09:19:34 [INFO] test_login - TC002: PASSED - Invalid login shows error
+2026-05-21 09:19:34 [INFO] conftest - Closing browser
+2026-05-21 09:19:34 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:19:34 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:19:35 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:19:35 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:19:35 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:19:37 [INFO] conftest - Browser created: chrome
+2026-05-21 09:19:37 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:19:38 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:19:38 [INFO] test_login - TC003: Blank Username Test
+2026-05-21 09:19:38 [INFO] pages.login_page - Performing login with user: 
+2026-05-21 09:19:38 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:19:38 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:19:38 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:19:38 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:19:39 [INFO] pages.login_page - Entering username: 
+2026-05-21 09:19:39 [INFO] pages.base_page - Entering text '' into: ('id', 'loginusername')
+2026-05-21 09:19:40 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:19:40 [INFO] pages.login_page - Entering password
+2026-05-21 09:19:40 [INFO] pages.base_page - Entering text 'test@123' into: ('id', 'loginpassword')
+2026-05-21 09:19:40 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:19:40 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:19:40 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:19:40 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:19:40 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:19:42 [INFO] pages.login_page - Getting alert message
+2026-05-21 09:19:42 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:19:42 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:19:42 [INFO] pages.base_page - Alert accepted. Text was: 'Please fill out Username and Password.'
+2026-05-21 09:19:42 [INFO] test_login - TC003: PASSED - Blank username shows error
+2026-05-21 09:19:42 [INFO] conftest - Closing browser
+2026-05-21 09:19:42 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:19:42 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:19:44 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:19:44 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:19:44 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:19:46 [INFO] conftest - Browser created: chrome
+2026-05-21 09:19:46 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:19:47 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:19:47 [INFO] test_login - TC004: Blank Password Test
+2026-05-21 09:19:47 [INFO] pages.login_page - Performing login with user: pavanol
+2026-05-21 09:19:47 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:19:47 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:19:47 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:19:47 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:19:48 [INFO] pages.login_page - Entering username: pavanol
+2026-05-21 09:19:48 [INFO] pages.base_page - Entering text 'pavanol' into: ('id', 'loginusername')
+2026-05-21 09:19:49 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:19:49 [INFO] pages.login_page - Entering password
+2026-05-21 09:19:49 [INFO] pages.base_page - Entering text '' into: ('id', 'loginpassword')
+2026-05-21 09:19:49 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:19:49 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:19:49 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:19:49 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:19:49 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:19:51 [INFO] pages.login_page - Getting alert message
+2026-05-21 09:19:51 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:19:51 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:19:51 [INFO] pages.base_page - Alert accepted. Text was: 'Please fill out Username and Password.'
+2026-05-21 09:19:51 [INFO] test_login - TC004: PASSED - Blank password shows error
+2026-05-21 09:19:51 [INFO] conftest - Closing browser
+2026-05-21 09:19:51 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:19:51 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:19:52 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:19:53 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:19:53 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:19:55 [INFO] conftest - Browser created: chrome
+2026-05-21 09:19:55 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:19:57 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:19:57 [INFO] test_login - TC005: Logout Test
+2026-05-21 09:19:57 [INFO] pages.login_page - Performing login with user: pavanol
+2026-05-21 09:19:57 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:19:57 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:19:57 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:19:57 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:19:58 [INFO] pages.login_page - Entering username: pavanol
+2026-05-21 09:19:58 [INFO] pages.base_page - Entering text 'pavanol' into: ('id', 'loginusername')
+2026-05-21 09:19:58 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:19:58 [INFO] pages.login_page - Entering password
+2026-05-21 09:19:58 [INFO] pages.base_page - Entering text 'test@123' into: ('id', 'loginpassword')
+2026-05-21 09:19:58 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:19:58 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:19:58 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:19:58 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:19:58 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:20:00 [INFO] pages.login_page - Checking if user is logged in
+2026-05-21 09:20:00 [INFO] pages.base_page - Element is visible: ('id', 'nameofuser')
+2026-05-21 09:20:00 [INFO] pages.login_page - Performing logout
+2026-05-21 09:20:00 [INFO] pages.base_page - Clicking element: ('id', 'logout2')
+2026-05-21 09:20:00 [INFO] pages.base_page - Clicked element: ('id', 'logout2')
+2026-05-21 09:20:00 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:20:01 [INFO] pages.login_page - Logout successful
+2026-05-21 09:20:06 [INFO] pages.base_page - Element is NOT visible: ('id', 'login2')
+2026-05-21 09:20:07 [INFO] utilities.screenshot_util - Screenshot saved: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/21FebPythonFramewrk/screenshots/test_logout_20260521_092006.png
+2026-05-21 09:20:07 [ERROR] conftest - TEST FAILED: test_logout - Screenshot: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/21FebPythonFramewrk/screenshots/test_logout_20260521_092006.png
+2026-05-21 09:20:07 [INFO] conftest - Closing browser
+2026-05-21 09:20:07 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:20:07 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:20:07 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:20:07 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:20:07 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:20:09 [INFO] conftest - Browser created: chrome
+2026-05-21 09:20:09 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:20:11 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:20:11 [INFO] test_product - TC006: Add Single Product Test
+2026-05-21 09:20:11 [INFO] pages.home_page - Selecting product: Samsung galaxy s6
+2026-05-21 09:20:11 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:20:13 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:20:13 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:20:14 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:20:14 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:20:14 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:20:14 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:20:16 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:20:16 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:20:16 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:20:16 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:20:16 [INFO] test_product - TC006: PASSED - Single product added to cart
+2026-05-21 09:20:16 [INFO] conftest - Closing browser
+2026-05-21 09:20:16 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:20:16 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:20:17 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:20:17 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:20:17 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:20:19 [INFO] conftest - Browser created: chrome
+2026-05-21 09:20:19 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:20:20 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:20:20 [INFO] test_product - TC007: Add Multiple Products Test
+2026-05-21 09:20:20 [INFO] pages.home_page - Selecting product: Samsung galaxy s6
+2026-05-21 09:20:20 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:20:22 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:20:22 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:20:23 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:20:23 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:20:23 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:20:23 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:20:25 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:20:25 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:20:25 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:20:25 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:20:25 [INFO] pages.product_page - Navigating back to home
+2026-05-21 09:20:25 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:20:25 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:20:25 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:20:26 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:20:27 [INFO] pages.home_page - Selecting product: Nokia lumia 1520
+2026-05-21 09:20:27 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Nokia lumia 1520']")
+2026-05-21 09:20:27 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Nokia lumia 1520']")
+2026-05-21 09:20:27 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:20:28 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:20:29 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:20:29 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:20:29 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:20:31 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:20:31 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:20:31 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:20:31 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:20:31 [INFO] pages.product_page - Navigating back to home
+2026-05-21 09:20:31 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:20:31 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:20:31 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:20:32 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:20:33 [INFO] pages.home_page - Selecting product: Nexus 6
+2026-05-21 09:20:33 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Nexus 6']")
+2026-05-21 09:20:34 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Nexus 6']")
+2026-05-21 09:20:34 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:20:35 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:20:35 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:20:35 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:20:35 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:20:37 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:20:37 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:20:37 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:20:37 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:20:37 [INFO] pages.product_page - Navigating back to home
+2026-05-21 09:20:37 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:20:37 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:20:37 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:20:38 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:20:39 [INFO] test_product - TC007: PASSED - 3 products added to cart
+2026-05-21 09:20:39 [INFO] conftest - Closing browser
+2026-05-21 09:20:39 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:20:39 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:20:40 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:20:40 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:20:40 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:20:42 [INFO] conftest - Browser created: chrome
+2026-05-21 09:20:42 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:20:43 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:20:43 [INFO] test_product - TC012: Verify Categories Test
+2026-05-21 09:20:43 [INFO] pages.base_page - Element is visible: ('xpath', "//a[text()='Phones']")
+2026-05-21 09:20:43 [INFO] pages.base_page - Element is visible: ('xpath', "//a[text()='Laptops']")
+2026-05-21 09:20:43 [INFO] pages.base_page - Element is visible: ('xpath', "//a[text()='Monitors']")
+2026-05-21 09:20:43 [INFO] pages.home_page - Categories visible - Phones: True, Laptops: True, Monitors: True
+2026-05-21 09:20:43 [INFO] pages.home_page - Selecting Phones category
+2026-05-21 09:20:43 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Phones']")
+2026-05-21 09:20:43 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Phones']")
+2026-05-21 09:20:43 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:20:44 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:20:45 [INFO] pages.base_page - Element count for ('css selector', '#tbodyid .card'): 7
+2026-05-21 09:20:45 [INFO] pages.home_page - Products displayed: 7
+2026-05-21 09:20:45 [INFO] test_product - Phones: 7 products
+2026-05-21 09:20:45 [INFO] pages.home_page - Selecting Laptops category
+2026-05-21 09:20:45 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Laptops']")
+2026-05-21 09:20:45 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Laptops']")
+2026-05-21 09:20:45 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:20:46 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:20:47 [INFO] pages.base_page - Element count for ('css selector', '#tbodyid .card'): 6
+2026-05-21 09:20:47 [INFO] pages.home_page - Products displayed: 6
+2026-05-21 09:20:47 [INFO] test_product - Laptops: 6 products
+2026-05-21 09:20:47 [INFO] pages.home_page - Selecting Monitors category
+2026-05-21 09:20:47 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Monitors']")
+2026-05-21 09:20:47 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Monitors']")
+2026-05-21 09:20:47 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:20:48 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:20:49 [INFO] pages.base_page - Element count for ('css selector', '#tbodyid .card'): 2
+2026-05-21 09:20:49 [INFO] pages.home_page - Products displayed: 2
+2026-05-21 09:20:49 [INFO] test_product - Monitors: 2 products
+2026-05-21 09:20:49 [INFO] test_product - TC012: PASSED - All categories verified
+2026-05-21 09:20:50 [INFO] conftest - Closing browser
+2026-05-21 09:20:50 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:20:50 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:20:50 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:20:50 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:20:50 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:20:52 [INFO] conftest - Browser created: chrome
+2026-05-21 09:20:52 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:20:54 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:20:54 [INFO] test_product - TC013: Verify Product Details Test
+2026-05-21 09:20:54 [INFO] pages.home_page - Selecting product: Samsung galaxy s6
+2026-05-21 09:20:54 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:20:55 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:20:55 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:20:56 [INFO] pages.base_page - Element is visible: ('css selector', '.name')
+2026-05-21 09:20:56 [INFO] pages.product_page - Getting product title
+2026-05-21 09:20:56 [INFO] pages.base_page - Getting text from: ('css selector', '.name')
+2026-05-21 09:20:56 [INFO] pages.base_page - Text found: 'Samsung galaxy s6'
+2026-05-21 09:20:56 [INFO] test_product - Product title: Samsung galaxy s6
+2026-05-21 09:20:56 [INFO] pages.product_page - Getting product price
+2026-05-21 09:20:56 [INFO] pages.base_page - Getting text from: ('css selector', '.price-container')
+2026-05-21 09:20:56 [INFO] pages.base_page - Text found: '$360 *includes tax'
+2026-05-21 09:20:56 [INFO] pages.product_page - Raw price text: $360 *includes tax
+2026-05-21 09:20:56 [INFO] test_product - Product price: $360 *includes tax
+2026-05-21 09:20:56 [INFO] test_product - TC013: PASSED - Product details verified
+2026-05-21 09:20:56 [INFO] conftest - Closing browser
+2026-05-21 09:20:56 [INFO] conftest - ============================================================
+2026-05-21 09:20:56 [INFO] conftest - TEST EXECUTION SUMMARY
+2026-05-21 09:20:56 [INFO] conftest - Total: 20 | Passed: 18 | Failed: 2 | Skipped: 0
+2026-05-21 09:20:56 [INFO] conftest - ============================================================
+2026-05-21 09:22:20 [INFO] root - Logger initialized successfully
+2026-05-21 09:22:20 [INFO] root - Logger initialized successfully
+2026-05-21 09:22:20 [INFO] conftest - Output directories created
+2026-05-21 09:22:21 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:22:21 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:22:21 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:22:21 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:22:22 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:22:22 [INFO] conftest - ============================================================
+2026-05-21 09:22:22 [INFO] conftest - TEST EXECUTION SUMMARY
+2026-05-21 09:22:22 [INFO] conftest - Total: 0 | Passed: 0 | Failed: 0 | Skipped: 0
+2026-05-21 09:22:22 [INFO] conftest - ============================================================
+2026-05-21 09:22:35 [INFO] root - Logger initialized successfully
+2026-05-21 09:22:35 [INFO] root - Logger initialized successfully
+2026-05-21 09:22:35 [INFO] conftest - Output directories created
+2026-05-21 09:22:36 [INFO] conftest - ============================================================
+2026-05-21 09:22:36 [INFO] conftest - TEST EXECUTION SUMMARY
+2026-05-21 09:22:36 [INFO] conftest - Total: 0 | Passed: 0 | Failed: 0 | Skipped: 0
+2026-05-21 09:22:36 [INFO] conftest - ============================================================
+2026-05-21 09:22:53 [INFO] root - Logger initialized successfully
+2026-05-21 09:22:53 [INFO] root - Logger initialized successfully
+2026-05-21 09:22:53 [INFO] conftest - Output directories created
+2026-05-21 09:22:53 [INFO] conftest - ============================================================
+2026-05-21 09:22:53 [INFO] conftest - TEST EXECUTION SUMMARY
+2026-05-21 09:22:53 [INFO] conftest - Total: 0 | Passed: 0 | Failed: 0 | Skipped: 0
+2026-05-21 09:22:53 [INFO] conftest - ============================================================
+2026-05-21 09:23:05 [INFO] root - Logger initialized successfully
+2026-05-21 09:23:05 [INFO] root - Logger initialized successfully
+2026-05-21 09:23:05 [INFO] conftest - Output directories created
+2026-05-21 09:23:06 [INFO] root - Logger initialized successfully
+2026-05-21 09:23:06 [INFO] root - Logger initialized successfully
+2026-05-21 09:23:06 [INFO] conftest - Output directories created
+2026-05-21 09:23:06 [INFO] root - Logger initialized successfully
+2026-05-21 09:23:06 [INFO] root - Logger initialized successfully
+2026-05-21 09:23:06 [INFO] conftest - Output directories created
+2026-05-21 09:23:06 [INFO] root - Logger initialized successfully
+2026-05-21 09:23:06 [INFO] root - Logger initialized successfully
+2026-05-21 09:23:06 [INFO] conftest - Output directories created
+2026-05-21 09:23:06 [INFO] root - Logger initialized successfully
+2026-05-21 09:23:06 [INFO] root - Logger initialized successfully
+2026-05-21 09:23:06 [INFO] conftest - Output directories created
+2026-05-21 09:23:06 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:23:06 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:23:06 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:23:06 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:23:06 [INFO] WDM - xdist worker is: gw2
+2026-05-21 09:23:06 [INFO] WDM - xdist worker is: gw1
+2026-05-21 09:23:06 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:23:06 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:23:06 [INFO] WDM - xdist worker is: gw0
+2026-05-21 09:23:06 [INFO] WDM - xdist worker is: gw3
+2026-05-21 09:23:06 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:23:06 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:23:07 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:07 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:07 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:07 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:07 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:07 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:07 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:07 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:07 [INFO] WDM - There is no [mac64] chromedriver "148.0.7778.178" for browser google-chrome "148.0.7778" in cache
+2026-05-21 09:23:07 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:07 [INFO] WDM - There is no [mac64] chromedriver "148.0.7778.178" for browser google-chrome "148.0.7778" in cache
+2026-05-21 09:23:07 [INFO] WDM - There is no [mac64] chromedriver "148.0.7778.178" for browser google-chrome "148.0.7778" in cache
+2026-05-21 09:23:07 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:07 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:07 [INFO] WDM - There is no [mac64] chromedriver "148.0.7778.178" for browser google-chrome "148.0.7778" in cache
+2026-05-21 09:23:07 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:07 [INFO] WDM - WebDriver version 148.0.7778.178 selected
+2026-05-21 09:23:07 [INFO] WDM - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-21 09:23:07 [INFO] WDM - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-21 09:23:07 [INFO] WDM - WebDriver version 148.0.7778.178 selected
+2026-05-21 09:23:07 [INFO] WDM - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-21 09:23:07 [INFO] WDM - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-21 09:23:07 [INFO] WDM - WebDriver version 148.0.7778.178 selected
+2026-05-21 09:23:07 [INFO] WDM - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-21 09:23:07 [INFO] WDM - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-21 09:23:07 [INFO] WDM - WebDriver version 148.0.7778.178 selected
+2026-05-21 09:23:07 [INFO] WDM - Driver downloading response is 200
+2026-05-21 09:23:07 [INFO] WDM - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-21 09:23:07 [INFO] WDM - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-21 09:23:07 [INFO] WDM - Driver downloading response is 200
+2026-05-21 09:23:07 [INFO] WDM - Driver downloading response is 200
+2026-05-21 09:23:08 [INFO] WDM - Driver downloading response is 200
+2026-05-21 09:23:17 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:17 [INFO] WDM - Driver has been saved in cache [/Users/ranjeetkendre/.wdm/gw2/drivers/chromedriver/mac64/148.0.7778.178]
+2026-05-21 09:23:18 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:18 [INFO] WDM - Driver has been saved in cache [/Users/ranjeetkendre/.wdm/gw1/drivers/chromedriver/mac64/148.0.7778.178]
+2026-05-21 09:23:20 [INFO] conftest - Browser created: chrome
+2026-05-21 09:23:20 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:23:20 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:20 [INFO] WDM - Driver has been saved in cache [/Users/ranjeetkendre/.wdm/gw3/drivers/chromedriver/mac64/148.0.7778.178]
+2026-05-21 09:23:21 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:21 [INFO] WDM - Driver has been saved in cache [/Users/ranjeetkendre/.wdm/gw0/drivers/chromedriver/mac64/148.0.7778.178]
+2026-05-21 09:23:21 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:23:21 [INFO] test_contact - TC015: Contact Form Submission Test
+2026-05-21 09:23:21 [INFO] utilities.random_data_generator - Generated email: test_luvkd_092321@test.com
+2026-05-21 09:23:21 [INFO] utilities.random_data_generator - Generated name: David
+2026-05-21 09:23:21 [INFO] pages.home_page - Clicking Contact link
+2026-05-21 09:23:21 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Contact']")
+2026-05-21 09:23:22 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Contact']")
+2026-05-21 09:23:22 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:23:22 [INFO] conftest - Browser created: chrome
+2026-05-21 09:23:22 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:23:23 [INFO] pages.contact_page - Filling and sending contact form
+2026-05-21 09:23:23 [INFO] pages.contact_page - Entering contact email: test_luvkd_092321@test.com
+2026-05-21 09:23:23 [INFO] pages.base_page - Entering text 'test_luvkd_092321@test.com' into: ('id', 'recipient-email')
+2026-05-21 09:23:23 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:23:23 [INFO] test_checkout - TC010: Place Order Test
+2026-05-21 09:23:23 [INFO] conftest - Browser created: chrome
+2026-05-21 09:23:23 [INFO] pages.home_page - Selecting product: Samsung galaxy s6
+2026-05-21 09:23:23 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:23:23 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:23:24 [INFO] pages.base_page - Text entered successfully: ('id', 'recipient-email')
+2026-05-21 09:23:24 [INFO] pages.contact_page - Entering contact name: David
+2026-05-21 09:23:24 [INFO] pages.base_page - Entering text 'David' into: ('id', 'recipient-name')
+2026-05-21 09:23:24 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:23:24 [INFO] test_e2e - TC016: Broken Link Validation Test
+2026-05-21 09:23:25 [INFO] pages.base_page - Text entered successfully: ('id', 'recipient-name')
+2026-05-21 09:23:25 [INFO] pages.contact_page - Entering message: This is an automated test message for contact form...
+2026-05-21 09:23:25 [INFO] pages.base_page - Entering text 'This is an automated test message for contact form validation.' into: ('id', 'message-text')
+2026-05-21 09:23:25 [INFO] pages.base_page - Text entered successfully: ('id', 'message-text')
+2026-05-21 09:23:25 [INFO] pages.contact_page - Clicking Send message button
+2026-05-21 09:23:25 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Send message']")
+2026-05-21 09:23:26 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Send message']")
+2026-05-21 09:23:26 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:23:27 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:23:27 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:23:27 [INFO] pages.base_page - Alert accepted. Text was: 'Thanks for the message!!'
+2026-05-21 09:23:27 [INFO] pages.contact_page - Contact alert: Thanks for the message!!
+2026-05-21 09:23:27 [INFO] test_contact - Contact form alert: Thanks for the message!!
+2026-05-21 09:23:27 [INFO] test_contact - TC015: PASSED - Contact form submitted successfully
+2026-05-21 09:23:27 [INFO] conftest - Browser created: chrome
+2026-05-21 09:23:27 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:23:27 [INFO] conftest - Closing browser
+2026-05-21 09:23:28 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:23:28 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:23:28 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:23:28 [INFO] WDM - xdist worker is: gw2
+2026-05-21 09:23:28 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:23:29 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:29 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:29 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/gw2/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:23:29 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:23:29 [INFO] test_cart - TC008: Remove Product from Cart Test
+2026-05-21 09:23:29 [INFO] pages.home_page - Selecting product: Samsung galaxy s6
+2026-05-21 09:23:29 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:23:29 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:23:29 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:23:29 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:23:29 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:23:30 [INFO] test_e2e - Total links checked: 4, broken: 0
+2026-05-21 09:23:30 [INFO] test_e2e - TC016: PASSED - No broken links found
+2026-05-21 09:23:30 [INFO] conftest - Closing browser
+2026-05-21 09:23:31 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:23:31 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:23:31 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:23:31 [INFO] WDM - xdist worker is: gw3
+2026-05-21 09:23:31 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:23:31 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:23:31 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:23:31 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:23:31 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:23:32 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:23:32 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:23:32 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:23:32 [INFO] conftest - Browser created: chrome
+2026-05-21 09:23:32 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:23:32 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:23:32 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:23:33 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:33 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:33 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/gw3/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:23:34 [INFO] pages.cart_page - Clicking Place Order button
+2026-05-21 09:23:34 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Place Order']")
+2026-05-21 09:23:34 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Place Order']")
+2026-05-21 09:23:34 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:23:34 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:23:34 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:23:34 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:23:34 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:23:35 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:23:35 [INFO] conftest - Browser created: chrome
+2026-05-21 09:23:35 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:23:35 [INFO] pages.checkout_page - Filling checkout form
+2026-05-21 09:23:35 [INFO] pages.checkout_page - Entering name: John Doe
+2026-05-21 09:23:35 [INFO] pages.base_page - Entering text 'John Doe' into: ('id', 'name')
+2026-05-21 09:23:36 [INFO] pages.base_page - Text entered successfully: ('id', 'name')
+2026-05-21 09:23:36 [INFO] pages.checkout_page - Entering country: USA
+2026-05-21 09:23:36 [INFO] pages.base_page - Entering text 'USA' into: ('id', 'country')
+2026-05-21 09:23:36 [INFO] pages.base_page - Text entered successfully: ('id', 'country')
+2026-05-21 09:23:36 [INFO] pages.checkout_page - Entering city: New York
+2026-05-21 09:23:36 [INFO] pages.base_page - Entering text 'New York' into: ('id', 'city')
+2026-05-21 09:23:36 [INFO] pages.base_page - Text entered successfully: ('id', 'city')
+2026-05-21 09:23:36 [INFO] pages.checkout_page - Entering card number
+2026-05-21 09:23:36 [INFO] pages.base_page - Entering text '4111111111111111' into: ('id', 'card')
+2026-05-21 09:23:36 [INFO] pages.base_page - Text entered successfully: ('id', 'card')
+2026-05-21 09:23:36 [INFO] pages.checkout_page - Entering month: 12
+2026-05-21 09:23:36 [INFO] pages.base_page - Entering text '12' into: ('id', 'month')
+2026-05-21 09:23:36 [INFO] pages.base_page - Text entered successfully: ('id', 'month')
+2026-05-21 09:23:36 [INFO] pages.checkout_page - Entering year: 2027
+2026-05-21 09:23:36 [INFO] pages.base_page - Entering text '2027' into: ('id', 'year')
+2026-05-21 09:23:36 [INFO] pages.base_page - Text entered successfully: ('id', 'year')
+2026-05-21 09:23:36 [INFO] pages.checkout_page - Checkout form filled successfully
+2026-05-21 09:23:36 [INFO] pages.checkout_page - Clicking Purchase button
+2026-05-21 09:23:36 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Purchase']")
+2026-05-21 09:23:36 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Purchase']")
+2026-05-21 09:23:36 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:23:37 [INFO] pages.cart_page - Getting cart items
+2026-05-21 09:23:37 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:23:38 [INFO] pages.checkout_page - Purchase completed
+2026-05-21 09:23:38 [INFO] pages.base_page - Element is visible: ('css selector', '.sweet-alert h2')
+2026-05-21 09:23:38 [INFO] pages.checkout_page - Getting confirmation title
+2026-05-21 09:23:38 [INFO] pages.base_page - Getting text from: ('css selector', '.sweet-alert h2')
+2026-05-21 09:23:38 [INFO] pages.base_page - Text found: 'Thank you for your purchase!'
+2026-05-21 09:23:38 [INFO] pages.checkout_page - Clicking confirmation OK
+2026-05-21 09:23:38 [INFO] pages.base_page - Clicking element: ('css selector', '.sweet-alert .confirm')
+2026-05-21 09:23:39 [INFO] pages.cart_page - Cart items: ['Samsung galaxy s6']
+2026-05-21 09:23:39 [INFO] pages.cart_page - Cart item count: 1
+2026-05-21 09:23:39 [INFO] test_cart - Cart items before delete: 1
+2026-05-21 09:23:39 [INFO] pages.cart_page - Deleting first cart item
+2026-05-21 09:23:39 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Delete']")
+2026-05-21 09:23:39 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:23:39 [INFO] test_e2e - TC014: Verify Navigation Menu Test
+2026-05-21 09:23:39 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:23:39 [INFO] pages.base_page - Element is visible: ('xpath', "//a[contains(@class,'nav-link') and text()='Home ']")
+2026-05-21 09:23:39 [INFO] pages.base_page - Element is visible: ('xpath', "//a[text()='Contact']")
+2026-05-21 09:23:39 [INFO] test_e2e - TC017: Search/Browse Product Test
+2026-05-21 09:23:39 [INFO] pages.home_page - Selecting Phones category
+2026-05-21 09:23:39 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Phones']")
+2026-05-21 09:23:39 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Delete']")
+2026-05-21 09:23:39 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:23:39 [INFO] pages.base_page - Element is visible: ('id', 'cartur')
+2026-05-21 09:23:39 [INFO] pages.home_page - Navigation - Home: True, Contact: True, Cart: True
+2026-05-21 09:23:39 [INFO] pages.base_page - Element is visible: ('id', 'carouselExampleIndicators')
+2026-05-21 09:23:39 [INFO] test_e2e - TC014: PASSED - Navigation menu verified
+2026-05-21 09:23:39 [INFO] conftest - Closing browser
+2026-05-21 09:23:39 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Phones']")
+2026-05-21 09:23:39 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:23:39 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:23:39 [INFO] WDM - xdist worker is: gw2
+2026-05-21 09:23:39 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:23:39 [INFO] pages.base_page - Clicked element: ('css selector', '.sweet-alert .confirm')
+2026-05-21 09:23:39 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:23:40 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:23:40 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:23:40 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:40 [INFO] test_checkout - TC010: PASSED - Order placed successfully
+2026-05-21 09:23:40 [INFO] conftest - Closing browser
+2026-05-21 09:23:40 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:23:40 [INFO] WDM - xdist worker is: gw1
+2026-05-21 09:23:40 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:23:40 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:40 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:41 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/gw2/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:23:41 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:41 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/gw1/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:23:41 [INFO] pages.home_page - Product names: ['Samsung galaxy s6', 'Nokia lumia 1520', 'Nexus 6', 'Samsung galaxy s7', 'Iphone 6 32gb', 'Sony xperia z5', 'HTC One M9']
+2026-05-21 09:23:41 [INFO] test_e2e - Phone products: ['Samsung galaxy s6', 'Nokia lumia 1520', 'Nexus 6', 'Samsung galaxy s7', 'Iphone 6 32gb', 'Sony xperia z5', 'HTC One M9']
+2026-05-21 09:23:41 [INFO] pages.base_page - Element is visible: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:23:41 [INFO] test_e2e - TC017: PASSED - Product 'Samsung galaxy s6' found in category
+2026-05-21 09:23:41 [INFO] conftest - Closing browser
+2026-05-21 09:23:41 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:23:41 [INFO] WDM - xdist worker is: gw3
+2026-05-21 09:23:41 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:23:42 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:42 [INFO] pages.cart_page - Getting cart items
+2026-05-21 09:23:42 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:23:42 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:42 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/gw3/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:23:42 [INFO] conftest - Browser created: chrome
+2026-05-21 09:23:42 [INFO] conftest - Browser created: chrome
+2026-05-21 09:23:43 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:23:43 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:23:44 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:23:44 [INFO] test_e2e - TC018: Cross Browser Test
+2026-05-21 09:23:44 [INFO] conftest - Browser created: chrome
+2026-05-21 09:23:44 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:23:45 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:23:45 [INFO] test_checkout - TC011: Verify Order Confirmation Test
+2026-05-21 09:23:45 [INFO] pages.home_page - Selecting product: Samsung galaxy s6
+2026-05-21 09:23:45 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:23:46 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:23:46 [INFO] test_e2e - TC019: Parallel Execution Test
+2026-05-21 09:23:46 [INFO] pages.base_page - Element is visible: ('id', 'carouselExampleIndicators')
+2026-05-21 09:23:46 [INFO] pages.home_page - Selecting Laptops category
+2026-05-21 09:23:46 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Laptops']")
+2026-05-21 09:23:46 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Laptops']")
+2026-05-21 09:23:46 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:23:47 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:23:48 [INFO] pages.home_page - Product names: ['Sony vaio i5', 'Sony vaio i7', 'MacBook air', 'Dell i7 8gb', '2017 Dell 15.6 Inch', 'MacBook Pro']
+2026-05-21 09:23:48 [INFO] test_e2e - TC019: PASSED - 6 laptop products found
+2026-05-21 09:23:48 [INFO] conftest - Closing browser
+2026-05-21 09:23:48 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:23:48 [INFO] WDM - xdist worker is: gw3
+2026-05-21 09:23:48 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:23:48 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:23:48 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:23:49 [INFO] pages.base_page - Element is visible: ('id', 'carouselExampleIndicators')
+2026-05-21 09:23:49 [INFO] pages.base_page - Page title: STORE
+2026-05-21 09:23:49 [INFO] test_e2e - Page title: STORE
+2026-05-21 09:23:49 [INFO] pages.base_page - Element is visible: ('xpath', "//a[text()='Phones']")
+2026-05-21 09:23:49 [INFO] pages.base_page - Element is visible: ('xpath', "//a[text()='Laptops']")
+2026-05-21 09:23:49 [INFO] pages.base_page - Element is visible: ('xpath', "//a[text()='Monitors']")
+2026-05-21 09:23:49 [INFO] pages.home_page - Categories visible - Phones: True, Laptops: True, Monitors: True
+2026-05-21 09:23:49 [INFO] test_e2e - TC018: PASSED - Cross browser verification complete
+2026-05-21 09:23:49 [INFO] conftest - Closing browser
+2026-05-21 09:23:49 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:23:49 [INFO] WDM - xdist worker is: gw2
+2026-05-21 09:23:49 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:23:50 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:23:50 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:23:50 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:23:50 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:23:50 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:50 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:50 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:50 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:51 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/gw2/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:23:51 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/gw3/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:23:52 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:23:52 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:23:52 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:23:52 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:23:52 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:23:52 [INFO] conftest - Browser created: chrome
+2026-05-21 09:23:52 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:23:52 [INFO] conftest - Browser created: chrome
+2026-05-21 09:23:52 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:23:53 [INFO] pages.cart_page - Cart items: []
+2026-05-21 09:23:53 [INFO] pages.cart_page - Cart item count: 0
+2026-05-21 09:23:53 [INFO] test_cart - TC008 PASSED - Item removed successfully. Before: 1, After: 0
+2026-05-21 09:23:53 [INFO] conftest - Closing browser
+2026-05-21 09:23:53 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:23:53 [INFO] WDM - xdist worker is: gw0
+2026-05-21 09:23:53 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:23:53 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:54 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:54 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/gw0/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:23:54 [INFO] pages.cart_page - Clicking Place Order button
+2026-05-21 09:23:54 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Place Order']")
+2026-05-21 09:23:54 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Place Order']")
+2026-05-21 09:23:54 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:23:55 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:23:55 [INFO] test_e2e - TC020: Full E2E Purchase Flow
+2026-05-21 09:23:55 [INFO] pages.login_page - Performing login with user: pavanol
+2026-05-21 09:23:55 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:23:55 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:23:55 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:23:55 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:23:55 [INFO] pages.checkout_page - Filling checkout form
+2026-05-21 09:23:55 [INFO] pages.checkout_page - Entering name: John Doe
+2026-05-21 09:23:55 [INFO] pages.base_page - Entering text 'John Doe' into: ('id', 'name')
+2026-05-21 09:23:56 [INFO] pages.base_page - Text entered successfully: ('id', 'name')
+2026-05-21 09:23:56 [INFO] pages.checkout_page - Entering country: USA
+2026-05-21 09:23:56 [INFO] pages.base_page - Entering text 'USA' into: ('id', 'country')
+2026-05-21 09:23:56 [INFO] pages.base_page - Text entered successfully: ('id', 'country')
+2026-05-21 09:23:56 [INFO] pages.checkout_page - Entering city: New York
+2026-05-21 09:23:56 [INFO] pages.base_page - Entering text 'New York' into: ('id', 'city')
+2026-05-21 09:23:56 [INFO] conftest - Browser created: chrome
+2026-05-21 09:23:56 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:23:56 [INFO] pages.base_page - Text entered successfully: ('id', 'city')
+2026-05-21 09:23:56 [INFO] pages.checkout_page - Entering card number
+2026-05-21 09:23:56 [INFO] pages.base_page - Entering text '4111111111111111' into: ('id', 'card')
+2026-05-21 09:23:56 [INFO] pages.base_page - Text entered successfully: ('id', 'card')
+2026-05-21 09:23:56 [INFO] pages.checkout_page - Entering month: 12
+2026-05-21 09:23:56 [INFO] pages.base_page - Entering text '12' into: ('id', 'month')
+2026-05-21 09:23:56 [INFO] pages.base_page - Text entered successfully: ('id', 'month')
+2026-05-21 09:23:56 [INFO] pages.checkout_page - Entering year: 2027
+2026-05-21 09:23:56 [INFO] pages.base_page - Entering text '2027' into: ('id', 'year')
+2026-05-21 09:23:56 [INFO] pages.base_page - Text entered successfully: ('id', 'year')
+2026-05-21 09:23:56 [INFO] pages.checkout_page - Checkout form filled successfully
+2026-05-21 09:23:56 [INFO] pages.checkout_page - Clicking Purchase button
+2026-05-21 09:23:56 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Purchase']")
+2026-05-21 09:23:56 [INFO] pages.login_page - Entering username: pavanol
+2026-05-21 09:23:56 [INFO] pages.base_page - Entering text 'pavanol' into: ('id', 'loginusername')
+2026-05-21 09:23:56 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Purchase']")
+2026-05-21 09:23:56 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:23:57 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:23:57 [INFO] pages.login_page - Entering password
+2026-05-21 09:23:57 [INFO] pages.base_page - Entering text 'test@123' into: ('id', 'loginpassword')
+2026-05-21 09:23:57 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:23:57 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:23:57 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:23:57 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:23:57 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:23:57 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:23:57 [INFO] test_cart - TC009: Verify Cart Total Test
+2026-05-21 09:23:57 [INFO] pages.home_page - Selecting product: Samsung galaxy s6
+2026-05-21 09:23:57 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:23:57 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:23:57 [INFO] test_login - TC002: Invalid Login Test
+2026-05-21 09:23:57 [INFO] pages.login_page - Performing login with user: invaliduser123
+2026-05-21 09:23:57 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:23:57 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:23:57 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:23:57 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:23:58 [INFO] pages.checkout_page - Purchase completed
+2026-05-21 09:23:58 [INFO] pages.login_page - Entering username: invaliduser123
+2026-05-21 09:23:58 [INFO] pages.base_page - Entering text 'invaliduser123' into: ('id', 'loginusername')
+2026-05-21 09:23:58 [INFO] pages.base_page - Element is visible: ('css selector', '.sweet-alert h2')
+2026-05-21 09:23:58 [INFO] pages.checkout_page - Getting confirmation details
+2026-05-21 09:23:58 [INFO] pages.base_page - Getting text from: ('css selector', '.sweet-alert .lead')
+2026-05-21 09:23:58 [INFO] pages.base_page - Text found: 'Id: 3612585
+Amount: 360 USD
+Card Number: 4111111111111111
+Name: John Doe
+Date: 21/4/2026'
+2026-05-21 09:23:58 [INFO] test_checkout - Confirmation details: Id: 3612585
+Amount: 360 USD
+Card Number: 4111111111111111
+Name: John Doe
+Date: 21/4/2026
+2026-05-21 09:23:58 [INFO] pages.checkout_page - Clicking confirmation OK
+2026-05-21 09:23:58 [INFO] pages.base_page - Clicking element: ('css selector', '.sweet-alert .confirm')
+2026-05-21 09:23:58 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:23:58 [INFO] pages.login_page - Entering password
+2026-05-21 09:23:58 [INFO] pages.base_page - Entering text 'wrongpass' into: ('id', 'loginpassword')
+2026-05-21 09:23:59 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:23:59 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:23:59 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:23:59 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:23:59 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:23:59 [INFO] pages.login_page - Checking if user is logged in
+2026-05-21 09:23:59 [INFO] pages.base_page - Element is visible: ('id', 'nameofuser')
+2026-05-21 09:23:59 [INFO] test_e2e - Step 1: Login - DONE
+2026-05-21 09:23:59 [INFO] pages.home_page - Selecting Phones category
+2026-05-21 09:23:59 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Phones']")
+2026-05-21 09:23:59 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Phones']")
+2026-05-21 09:23:59 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:00 [INFO] pages.base_page - Clicked element: ('css selector', '.sweet-alert .confirm')
+2026-05-21 09:24:00 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:00 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:01 [INFO] pages.login_page - Getting alert message
+2026-05-21 09:24:01 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:24:01 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:24:01 [INFO] pages.base_page - Alert accepted. Text was: 'User does not exist.'
+2026-05-21 09:24:01 [INFO] test_login - TC002: PASSED - Invalid login shows error
+2026-05-21 09:24:01 [INFO] conftest - Closing browser
+2026-05-21 09:24:01 [INFO] test_checkout - TC011: PASSED - Order confirmation details verified
+2026-05-21 09:24:01 [INFO] conftest - Closing browser
+2026-05-21 09:24:01 [INFO] test_e2e - Step 2: Browse products - DONE
+2026-05-21 09:24:01 [INFO] pages.home_page - Selecting product: Samsung galaxy s6
+2026-05-21 09:24:01 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:24:01 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:24:01 [INFO] WDM - xdist worker is: gw3
+2026-05-21 09:24:01 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:24:01 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:24:01 [INFO] WDM - xdist worker is: gw1
+2026-05-21 09:24:01 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:24:01 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:24:01 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:01 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:24:01 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:01 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:01 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:01 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:01 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:02 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/gw1/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:24:02 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/gw3/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:24:02 [INFO] test_e2e - Step 3: Selected product 'Samsung galaxy s6' - DONE
+2026-05-21 09:24:02 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:24:02 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:24:02 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:24:02 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:24:02 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:24:02 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:24:03 [INFO] conftest - Browser created: chrome
+2026-05-21 09:24:03 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:24:03 [INFO] conftest - Browser created: chrome
+2026-05-21 09:24:03 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:24:04 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:24:04 [INFO] test_login - TC001: Valid Login Test
+2026-05-21 09:24:04 [INFO] pages.login_page - Performing login with user: pavanol
+2026-05-21 09:24:04 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:24:04 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:24:04 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:24:04 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:24:04 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:24:04 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:24:04 [INFO] pages.product_page - Navigating back to home
+2026-05-21 09:24:04 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:24:05 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:24:05 [INFO] test_login - TC003: Blank Username Test
+2026-05-21 09:24:05 [INFO] pages.login_page - Performing login with user: 
+2026-05-21 09:24:05 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:24:05 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:24:05 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:24:05 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:05 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:24:05 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:06 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:24:06 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:06 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:06 [INFO] pages.login_page - Entering username: 
+2026-05-21 09:24:06 [INFO] pages.base_page - Entering text '' into: ('id', 'loginusername')
+2026-05-21 09:24:07 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:24:07 [INFO] pages.login_page - Entering password
+2026-05-21 09:24:07 [INFO] pages.base_page - Entering text 'test@123' into: ('id', 'loginpassword')
+2026-05-21 09:24:07 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:24:07 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:24:07 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:24:07 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:24:07 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:24:07 [INFO] pages.login_page - Entering username: pavanol
+2026-05-21 09:24:07 [INFO] pages.base_page - Entering text 'pavanol' into: ('id', 'loginusername')
+2026-05-21 09:24:07 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:24:07 [INFO] pages.login_page - Entering password
+2026-05-21 09:24:07 [INFO] pages.base_page - Entering text 'test@123' into: ('id', 'loginpassword')
+2026-05-21 09:24:07 [INFO] pages.home_page - Selecting product: Nokia lumia 1520
+2026-05-21 09:24:07 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Nokia lumia 1520']")
+2026-05-21 09:24:07 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:24:07 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:24:07 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:24:07 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:24:07 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:24:09 [INFO] pages.login_page - Getting alert message
+2026-05-21 09:24:09 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:24:09 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:24:09 [INFO] pages.base_page - Alert accepted. Text was: 'Please fill out Username and Password.'
+2026-05-21 09:24:09 [INFO] test_login - TC003: PASSED - Blank username shows error
+2026-05-21 09:24:09 [INFO] conftest - Closing browser
+2026-05-21 09:24:09 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:24:09 [INFO] WDM - xdist worker is: gw3
+2026-05-21 09:24:09 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:24:09 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Nokia lumia 1520']")
+2026-05-21 09:24:09 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:09 [INFO] pages.login_page - Checking if user is logged in
+2026-05-21 09:24:10 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:10 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:24:10 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:24:11 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:11 [INFO] pages.base_page - Element is visible: ('id', 'nameofuser')
+2026-05-21 09:24:11 [INFO] pages.login_page - Getting welcome message
+2026-05-21 09:24:11 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:24:11 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:24:11 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:24:11 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/gw3/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:24:13 [INFO] conftest - Browser created: chrome
+2026-05-21 09:24:13 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:24:13 [INFO] pages.base_page - Getting text from: ('id', 'nameofuser')
+2026-05-21 09:24:13 [INFO] pages.base_page - Text found: 'Welcome pavanol'
+2026-05-21 09:24:13 [INFO] test_login - TC001: PASSED - Valid login successful
+2026-05-21 09:24:13 [INFO] conftest - Closing browser
+2026-05-21 09:24:13 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:24:13 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:24:13 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:24:13 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:24:13 [INFO] pages.product_page - Navigating back to home
+2026-05-21 09:24:13 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:24:14 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:24:14 [INFO] WDM - xdist worker is: gw1
+2026-05-21 09:24:14 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:24:14 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:24:14 [INFO] test_product - TC006: Add Single Product Test
+2026-05-21 09:24:14 [INFO] pages.home_page - Selecting product: Samsung galaxy s6
+2026-05-21 09:24:14 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:24:14 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:14 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:24:14 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:15 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:15 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/gw1/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:24:15 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:17 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:24:17 [INFO] conftest - Browser created: chrome
+2026-05-21 09:24:17 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:24:19 [INFO] pages.cart_page - Getting total price
+2026-05-21 09:24:19 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:20 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:24:20 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:20 [INFO] pages.base_page - Getting text from: ('id', 'totalp')
+2026-05-21 09:24:20 [INFO] pages.base_page - Text found: '1180'
+2026-05-21 09:24:20 [INFO] pages.cart_page - Total price: 1180
+2026-05-21 09:24:20 [INFO] test_cart - Cart total: 1180
+2026-05-21 09:24:20 [INFO] pages.cart_page - Getting cart prices
+2026-05-21 09:24:20 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:21 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:24:21 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:24:21 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:24:21 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:24:21 [INFO] pages.cart_page - Cart prices: ['820', '360']
+2026-05-21 09:24:21 [INFO] test_cart - Sum of prices: 1180, Displayed total: 1180
+2026-05-21 09:24:21 [INFO] test_cart - TC009 PASSED - Cart total verified successfully
+2026-05-21 09:24:21 [INFO] conftest - Closing browser
+2026-05-21 09:24:21 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:24:21 [INFO] WDM - xdist worker is: gw0
+2026-05-21 09:24:21 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:24:21 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:22 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:22 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/gw0/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:24:22 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:24:22 [INFO] test_product - TC007: Add Multiple Products Test
+2026-05-21 09:24:22 [INFO] pages.home_page - Selecting product: Samsung galaxy s6
+2026-05-21 09:24:22 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:24:23 [ERROR] pages.base_page - Element not clickable: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:24:23 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:24:23 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:24:23 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:24:23 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:24:23 [INFO] test_product - TC006: PASSED - Single product added to cart
+2026-05-21 09:24:23 [INFO] conftest - Closing browser
+2026-05-21 09:24:24 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:24:24 [INFO] WDM - xdist worker is: gw3
+2026-05-21 09:24:24 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:24:24 [INFO] conftest - Browser created: chrome
+2026-05-21 09:24:24 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:24:24 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:24:24 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:24 [INFO] utilities.screenshot_util - Screenshot saved: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/21FebPythonFramewrk/screenshots/test_full_e2e_purchase_20260521_092423.png
+2026-05-21 09:24:24 [ERROR] conftest - TEST FAILED: test_full_e2e_purchase - Screenshot: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/21FebPythonFramewrk/screenshots/test_full_e2e_purchase_20260521_092423.png
+2026-05-21 09:24:25 [INFO] conftest - Closing browser
+2026-05-21 09:24:25 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:24:25 [INFO] WDM - xdist worker is: gw2
+2026-05-21 09:24:25 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:24:25 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:25 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:25 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:25 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/gw3/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:24:25 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:25 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/gw2/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:24:25 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:24:25 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:24:25 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:24:25 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:24:26 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:24:26 [INFO] test_login - TC005: Logout Test
+2026-05-21 09:24:26 [INFO] pages.login_page - Performing login with user: pavanol
+2026-05-21 09:24:26 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:24:26 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:24:27 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:24:27 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:27 [INFO] conftest - Browser created: chrome
+2026-05-21 09:24:27 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:24:27 [INFO] conftest - Browser created: chrome
+2026-05-21 09:24:27 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:24:27 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:24:27 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:24:27 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:24:27 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:24:27 [INFO] pages.product_page - Navigating back to home
+2026-05-21 09:24:27 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:24:28 [INFO] pages.login_page - Entering username: pavanol
+2026-05-21 09:24:28 [INFO] pages.base_page - Entering text 'pavanol' into: ('id', 'loginusername')
+2026-05-21 09:24:28 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:24:28 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:24:28 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:28 [INFO] test_product - TC012: Verify Categories Test
+2026-05-21 09:24:28 [INFO] pages.base_page - Element is visible: ('xpath', "//a[text()='Phones']")
+2026-05-21 09:24:29 [INFO] pages.base_page - Element is visible: ('xpath', "//a[text()='Laptops']")
+2026-05-21 09:24:29 [INFO] pages.base_page - Element is visible: ('xpath', "//a[text()='Monitors']")
+2026-05-21 09:24:29 [INFO] pages.home_page - Categories visible - Phones: True, Laptops: True, Monitors: True
+2026-05-21 09:24:29 [INFO] pages.home_page - Selecting Phones category
+2026-05-21 09:24:29 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Phones']")
+2026-05-21 09:24:29 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Phones']")
+2026-05-21 09:24:29 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:29 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:24:29 [INFO] pages.login_page - Entering password
+2026-05-21 09:24:29 [INFO] pages.base_page - Entering text 'test@123' into: ('id', 'loginpassword')
+2026-05-21 09:24:29 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:24:29 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:24:29 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:24:29 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:24:29 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:24:29 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:30 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:30 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:24:30 [INFO] test_login - TC004: Blank Password Test
+2026-05-21 09:24:30 [INFO] pages.login_page - Performing login with user: pavanol
+2026-05-21 09:24:30 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:24:30 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:24:30 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:24:30 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:30 [INFO] pages.home_page - Selecting product: Nokia lumia 1520
+2026-05-21 09:24:30 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Nokia lumia 1520']")
+2026-05-21 09:24:31 [INFO] pages.base_page - Element count for ('css selector', '#tbodyid .card'): 7
+2026-05-21 09:24:31 [INFO] pages.home_page - Products displayed: 7
+2026-05-21 09:24:31 [INFO] test_product - Phones: 7 products
+2026-05-21 09:24:31 [INFO] pages.home_page - Selecting Laptops category
+2026-05-21 09:24:31 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Laptops']")
+2026-05-21 09:24:31 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Laptops']")
+2026-05-21 09:24:31 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:31 [INFO] pages.login_page - Checking if user is logged in
+2026-05-21 09:24:31 [INFO] pages.base_page - Element is visible: ('id', 'nameofuser')
+2026-05-21 09:24:31 [INFO] pages.login_page - Performing logout
+2026-05-21 09:24:31 [INFO] pages.base_page - Clicking element: ('id', 'logout2')
+2026-05-21 09:24:31 [INFO] pages.login_page - Entering username: pavanol
+2026-05-21 09:24:31 [INFO] pages.base_page - Entering text 'pavanol' into: ('id', 'loginusername')
+2026-05-21 09:24:31 [INFO] pages.base_page - Clicked element: ('id', 'logout2')
+2026-05-21 09:24:31 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:31 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Nokia lumia 1520']")
+2026-05-21 09:24:31 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:31 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:24:31 [INFO] pages.login_page - Entering password
+2026-05-21 09:24:31 [INFO] pages.base_page - Entering text '' into: ('id', 'loginpassword')
+2026-05-21 09:24:31 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:24:31 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:24:31 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:24:32 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:24:32 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:24:32 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:32 [INFO] pages.login_page - Logout successful
+2026-05-21 09:24:32 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:24:32 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:24:32 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:24:32 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:24:33 [INFO] pages.base_page - Element count for ('css selector', '#tbodyid .card'): 6
+2026-05-21 09:24:33 [INFO] pages.home_page - Products displayed: 6
+2026-05-21 09:24:33 [INFO] test_product - Laptops: 6 products
+2026-05-21 09:24:33 [INFO] pages.home_page - Selecting Monitors category
+2026-05-21 09:24:33 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Monitors']")
+2026-05-21 09:24:33 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Monitors']")
+2026-05-21 09:24:33 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:34 [INFO] pages.login_page - Getting alert message
+2026-05-21 09:24:34 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:24:34 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:24:34 [INFO] pages.base_page - Alert accepted. Text was: 'Please fill out Username and Password.'
+2026-05-21 09:24:34 [INFO] test_login - TC004: PASSED - Blank password shows error
+2026-05-21 09:24:34 [INFO] conftest - Closing browser
+2026-05-21 09:24:34 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:34 [INFO] conftest - ============================================================
+2026-05-21 09:24:34 [INFO] conftest - TEST EXECUTION SUMMARY
+2026-05-21 09:24:34 [INFO] conftest - Total: 5 | Passed: 4 | Failed: 1 | Skipped: 0
+2026-05-21 09:24:34 [INFO] conftest - ============================================================
+2026-05-21 09:24:34 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:24:34 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:24:34 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:24:34 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:24:34 [INFO] pages.product_page - Navigating back to home
+2026-05-21 09:24:34 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:24:35 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:24:35 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:35 [INFO] pages.base_page - Element count for ('css selector', '#tbodyid .card'): 2
+2026-05-21 09:24:35 [INFO] pages.home_page - Products displayed: 2
+2026-05-21 09:24:35 [INFO] test_product - Monitors: 2 products
+2026-05-21 09:24:35 [INFO] test_product - TC012: PASSED - All categories verified
+2026-05-21 09:24:35 [INFO] conftest - Closing browser
+2026-05-21 09:24:35 [INFO] conftest - ============================================================
+2026-05-21 09:24:35 [INFO] conftest - TEST EXECUTION SUMMARY
+2026-05-21 09:24:35 [INFO] conftest - Total: 7 | Passed: 7 | Failed: 0 | Skipped: 0
+2026-05-21 09:24:35 [INFO] conftest - ============================================================
+2026-05-21 09:24:36 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:37 [INFO] pages.home_page - Selecting product: Nexus 6
+2026-05-21 09:24:37 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Nexus 6']")
+2026-05-21 09:24:37 [INFO] pages.base_page - Element is NOT visible: ('id', 'login2')
+2026-05-21 09:24:38 [INFO] utilities.screenshot_util - Screenshot saved: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/21FebPythonFramewrk/screenshots/test_logout_20260521_092437.png
+2026-05-21 09:24:38 [ERROR] conftest - TEST FAILED: test_logout - Screenshot: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/21FebPythonFramewrk/screenshots/test_logout_20260521_092437.png
+2026-05-21 09:24:38 [INFO] conftest - Closing browser
+2026-05-21 09:24:38 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Nexus 6']")
+2026-05-21 09:24:38 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:38 [INFO] conftest - ============================================================
+2026-05-21 09:24:38 [INFO] conftest - TEST EXECUTION SUMMARY
+2026-05-21 09:24:38 [INFO] conftest - Total: 3 | Passed: 2 | Failed: 1 | Skipped: 0
+2026-05-21 09:24:38 [INFO] conftest - ============================================================
+2026-05-21 09:24:39 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:24:39 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:24:39 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:24:39 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:24:41 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:24:41 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:24:41 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:24:41 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:24:41 [INFO] pages.product_page - Navigating back to home
+2026-05-21 09:24:41 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:24:42 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Home ']")
+2026-05-21 09:24:42 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:43 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:44 [INFO] test_product - TC007: PASSED - 3 products added to cart
+2026-05-21 09:24:44 [INFO] conftest - Closing browser
+2026-05-21 09:24:44 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:24:44 [INFO] WDM - xdist worker is: gw1
+2026-05-21 09:24:44 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:24:45 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:45 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:45 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/gw1/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:24:47 [INFO] conftest - Browser created: chrome
+2026-05-21 09:24:47 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:24:48 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:24:48 [INFO] test_product - TC013: Verify Product Details Test
+2026-05-21 09:24:48 [INFO] pages.home_page - Selecting product: Samsung galaxy s6
+2026-05-21 09:24:48 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:24:49 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:24:49 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:50 [INFO] pages.base_page - Element is visible: ('css selector', '.name')
+2026-05-21 09:24:50 [INFO] pages.product_page - Getting product title
+2026-05-21 09:24:50 [INFO] pages.base_page - Getting text from: ('css selector', '.name')
+2026-05-21 09:24:50 [INFO] pages.base_page - Text found: 'Samsung galaxy s6'
+2026-05-21 09:24:50 [INFO] test_product - Product title: Samsung galaxy s6
+2026-05-21 09:24:50 [INFO] pages.product_page - Getting product price
+2026-05-21 09:24:50 [INFO] pages.base_page - Getting text from: ('css selector', '.price-container')
+2026-05-21 09:24:50 [INFO] pages.base_page - Text found: '$360 *includes tax'
+2026-05-21 09:24:50 [INFO] pages.product_page - Raw price text: $360 *includes tax
+2026-05-21 09:24:50 [INFO] test_product - Product price: $360 *includes tax
+2026-05-21 09:24:50 [INFO] test_product - TC013: PASSED - Product details verified
+2026-05-21 09:24:50 [INFO] conftest - Closing browser
+2026-05-21 09:24:50 [INFO] conftest - ============================================================
+2026-05-21 09:24:50 [INFO] conftest - TEST EXECUTION SUMMARY
+2026-05-21 09:24:50 [INFO] conftest - Total: 5 | Passed: 5 | Failed: 0 | Skipped: 0
+2026-05-21 09:24:50 [INFO] conftest - ============================================================
+2026-05-21 09:24:51 [INFO] conftest - ============================================================
+2026-05-21 09:24:51 [INFO] conftest - TEST EXECUTION SUMMARY
+2026-05-21 09:24:51 [INFO] conftest - Total: 20 | Passed: 18 | Failed: 2 | Skipped: 0
+2026-05-21 09:24:51 [INFO] conftest - ============================================================
+2026-05-21 09:29:15 [INFO] root - Logger initialized successfully
+2026-05-21 09:29:15 [INFO] root - Logger initialized successfully
+2026-05-21 09:29:15 [INFO] conftest - Output directories created
+2026-05-21 09:29:15 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:29:15 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:29:16 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:29:16 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:29:16 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:29:20 [INFO] conftest - Browser created: chrome
+2026-05-21 09:29:20 [INFO] utilities.config_reader - Config loaded for environment: staging
+2026-05-21 09:29:21 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:29:21 [INFO] test_login - TC001: Valid Login Test
+2026-05-21 09:29:21 [INFO] pages.login_page - Performing login with user: pavanol
+2026-05-21 09:29:21 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:29:21 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:29:21 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:29:21 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:29:22 [INFO] pages.login_page - Entering username: pavanol
+2026-05-21 09:29:22 [INFO] pages.base_page - Entering text 'pavanol' into: ('id', 'loginusername')
+2026-05-21 09:29:22 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:29:22 [INFO] pages.login_page - Entering password
+2026-05-21 09:29:22 [INFO] pages.base_page - Entering text 'test@123' into: ('id', 'loginpassword')
+2026-05-21 09:29:22 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:29:22 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:29:22 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:29:22 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:29:22 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:29:24 [INFO] pages.login_page - Checking if user is logged in
+2026-05-21 09:29:24 [INFO] pages.base_page - Element is visible: ('id', 'nameofuser')
+2026-05-21 09:29:24 [INFO] pages.login_page - Getting welcome message
+2026-05-21 09:29:24 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:29:26 [INFO] pages.base_page - Getting text from: ('id', 'nameofuser')
+2026-05-21 09:29:26 [INFO] pages.base_page - Text found: 'Welcome pavanol'
+2026-05-21 09:29:26 [INFO] test_login - TC001: PASSED - Valid login successful
+2026-05-21 09:29:26 [INFO] conftest - Closing browser
+2026-05-21 09:29:27 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:29:27 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:29:27 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:29:27 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:29:27 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:29:29 [INFO] conftest - Browser created: chrome
+2026-05-21 09:29:29 [INFO] utilities.config_reader - Config loaded for environment: staging
+2026-05-21 09:29:30 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:29:30 [INFO] test_login - TC002: Invalid Login Test
+2026-05-21 09:29:30 [INFO] pages.login_page - Performing login with user: invaliduser123
+2026-05-21 09:29:30 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:29:30 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:29:30 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:29:30 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:29:31 [INFO] pages.login_page - Entering username: invaliduser123
+2026-05-21 09:29:31 [INFO] pages.base_page - Entering text 'invaliduser123' into: ('id', 'loginusername')
+2026-05-21 09:29:31 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:29:31 [INFO] pages.login_page - Entering password
+2026-05-21 09:29:31 [INFO] pages.base_page - Entering text 'wrongpass' into: ('id', 'loginpassword')
+2026-05-21 09:29:31 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:29:31 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:29:31 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:29:31 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:29:31 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:29:33 [INFO] pages.login_page - Getting alert message
+2026-05-21 09:29:33 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:29:33 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:29:33 [INFO] pages.base_page - Alert accepted. Text was: 'User does not exist.'
+2026-05-21 09:29:33 [INFO] test_login - TC002: PASSED - Invalid login shows error
+2026-05-21 09:29:33 [INFO] conftest - Closing browser
+2026-05-21 09:29:33 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:29:33 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:29:35 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:29:35 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:29:35 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:29:37 [INFO] conftest - Browser created: chrome
+2026-05-21 09:29:37 [INFO] utilities.config_reader - Config loaded for environment: staging
+2026-05-21 09:29:38 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:29:38 [INFO] test_login - TC003: Blank Username Test
+2026-05-21 09:29:38 [INFO] pages.login_page - Performing login with user: 
+2026-05-21 09:29:38 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:29:38 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:29:38 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:29:38 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:29:39 [INFO] pages.login_page - Entering username: 
+2026-05-21 09:29:39 [INFO] pages.base_page - Entering text '' into: ('id', 'loginusername')
+2026-05-21 09:29:40 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:29:40 [INFO] pages.login_page - Entering password
+2026-05-21 09:29:40 [INFO] pages.base_page - Entering text 'test@123' into: ('id', 'loginpassword')
+2026-05-21 09:29:40 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:29:40 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:29:40 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:29:40 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:29:40 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:29:42 [INFO] pages.login_page - Getting alert message
+2026-05-21 09:29:42 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:29:42 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:29:42 [INFO] pages.base_page - Alert accepted. Text was: 'Please fill out Username and Password.'
+2026-05-21 09:29:42 [INFO] test_login - TC003: PASSED - Blank username shows error
+2026-05-21 09:29:42 [INFO] conftest - Closing browser
+2026-05-21 09:29:42 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:29:42 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:29:44 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:29:44 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:29:44 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:29:46 [INFO] conftest - Browser created: chrome
+2026-05-21 09:29:46 [INFO] utilities.config_reader - Config loaded for environment: staging
+2026-05-21 09:29:47 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:29:47 [INFO] test_login - TC004: Blank Password Test
+2026-05-21 09:29:47 [INFO] pages.login_page - Performing login with user: pavanol
+2026-05-21 09:29:47 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:29:47 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:29:47 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:29:47 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:29:48 [INFO] pages.login_page - Entering username: pavanol
+2026-05-21 09:29:48 [INFO] pages.base_page - Entering text 'pavanol' into: ('id', 'loginusername')
+2026-05-21 09:29:48 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:29:48 [INFO] pages.login_page - Entering password
+2026-05-21 09:29:48 [INFO] pages.base_page - Entering text '' into: ('id', 'loginpassword')
+2026-05-21 09:29:48 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:29:48 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:29:48 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:29:49 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:29:49 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:29:51 [INFO] pages.login_page - Getting alert message
+2026-05-21 09:29:51 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:29:51 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:29:51 [INFO] pages.base_page - Alert accepted. Text was: 'Please fill out Username and Password.'
+2026-05-21 09:29:51 [INFO] test_login - TC004: PASSED - Blank password shows error
+2026-05-21 09:29:51 [INFO] conftest - Closing browser
+2026-05-21 09:29:51 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:29:51 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:29:52 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:29:52 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:29:52 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:29:54 [INFO] conftest - Browser created: chrome
+2026-05-21 09:29:54 [INFO] utilities.config_reader - Config loaded for environment: staging
+2026-05-21 09:29:55 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:29:55 [INFO] test_login - TC005: Logout Test
+2026-05-21 09:29:55 [INFO] pages.login_page - Performing login with user: pavanol
+2026-05-21 09:29:55 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:29:55 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:29:55 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:29:55 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:29:56 [INFO] pages.login_page - Entering username: pavanol
+2026-05-21 09:29:56 [INFO] pages.base_page - Entering text 'pavanol' into: ('id', 'loginusername')
+2026-05-21 09:29:56 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:29:56 [INFO] pages.login_page - Entering password
+2026-05-21 09:29:56 [INFO] pages.base_page - Entering text 'test@123' into: ('id', 'loginpassword')
+2026-05-21 09:29:57 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:29:57 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:29:57 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:29:57 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:29:57 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:29:59 [INFO] pages.login_page - Checking if user is logged in
+2026-05-21 09:29:59 [INFO] pages.base_page - Element is visible: ('id', 'nameofuser')
+2026-05-21 09:29:59 [INFO] pages.login_page - Performing logout
+2026-05-21 09:29:59 [INFO] pages.base_page - Clicking element: ('id', 'logout2')
+2026-05-21 09:29:59 [INFO] pages.base_page - Clicked element: ('id', 'logout2')
+2026-05-21 09:29:59 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:30:00 [INFO] pages.login_page - Logout successful
+2026-05-21 09:30:05 [INFO] pages.base_page - Element is NOT visible: ('id', 'login2')
+2026-05-21 09:30:06 [INFO] utilities.screenshot_util - Screenshot saved: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/21FebPythonFramewrk/screenshots/test_logout_20260521_093005.png
+2026-05-21 09:30:06 [ERROR] conftest - TEST FAILED: test_logout - Screenshot: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/21FebPythonFramewrk/screenshots/test_logout_20260521_093005.png
+2026-05-21 09:30:06 [INFO] conftest - Closing browser
+2026-05-21 09:30:06 [INFO] conftest - ============================================================
+2026-05-21 09:30:06 [INFO] conftest - TEST EXECUTION SUMMARY
+2026-05-21 09:30:06 [INFO] conftest - Total: 5 | Passed: 4 | Failed: 1 | Skipped: 0
+2026-05-21 09:30:06 [INFO] conftest - ============================================================
+2026-05-21 09:31:12 [INFO] root - Logger initialized successfully
+2026-05-21 09:31:12 [INFO] root - Logger initialized successfully
+2026-05-21 09:31:12 [INFO] conftest - Output directories created
+2026-05-21 09:31:12 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:31:12 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:31:13 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:31:13 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:31:13 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:31:15 [INFO] conftest - Browser created: chrome
+2026-05-21 09:31:15 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:31:17 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:31:17 [INFO] test_login - TC001: Valid Login Test
+2026-05-21 09:31:17 [INFO] pages.login_page - Performing login with user: pavanol
+2026-05-21 09:31:17 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:31:17 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:31:17 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:31:17 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:31:18 [INFO] pages.login_page - Entering username: pavanol
+2026-05-21 09:31:18 [INFO] pages.base_page - Entering text 'pavanol' into: ('id', 'loginusername')
+2026-05-21 09:31:18 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:31:18 [INFO] pages.login_page - Entering password
+2026-05-21 09:31:18 [INFO] pages.base_page - Entering text 'test@123' into: ('id', 'loginpassword')
+2026-05-21 09:31:18 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:31:18 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:31:18 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:31:19 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:31:19 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:31:21 [INFO] pages.login_page - Checking if user is logged in
+2026-05-21 09:31:21 [INFO] pages.base_page - Element is visible: ('id', 'nameofuser')
+2026-05-21 09:31:21 [INFO] pages.login_page - Getting welcome message
+2026-05-21 09:31:21 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:31:23 [INFO] pages.base_page - Getting text from: ('id', 'nameofuser')
+2026-05-21 09:31:23 [INFO] pages.base_page - Text found: 'Welcome pavanol'
+2026-05-21 09:31:23 [INFO] test_login - TC001: PASSED - Valid login successful
+2026-05-21 09:31:23 [INFO] conftest - Closing browser
+2026-05-21 09:31:23 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:31:23 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:31:23 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:31:23 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:31:23 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:31:25 [INFO] conftest - Browser created: chrome
+2026-05-21 09:31:25 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:31:26 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:31:26 [INFO] test_login - TC002: Invalid Login Test
+2026-05-21 09:31:26 [INFO] pages.login_page - Performing login with user: invaliduser123
+2026-05-21 09:31:26 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:31:26 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:31:26 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:31:26 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:31:27 [INFO] pages.login_page - Entering username: invaliduser123
+2026-05-21 09:31:27 [INFO] pages.base_page - Entering text 'invaliduser123' into: ('id', 'loginusername')
+2026-05-21 09:31:27 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:31:27 [INFO] pages.login_page - Entering password
+2026-05-21 09:31:27 [INFO] pages.base_page - Entering text 'wrongpass' into: ('id', 'loginpassword')
+2026-05-21 09:31:27 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:31:27 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:31:27 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:31:27 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:31:27 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:31:29 [INFO] pages.login_page - Getting alert message
+2026-05-21 09:31:29 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:31:29 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:31:29 [INFO] pages.base_page - Alert accepted. Text was: 'User does not exist.'
+2026-05-21 09:31:29 [INFO] test_login - TC002: PASSED - Invalid login shows error
+2026-05-21 09:31:29 [INFO] conftest - Closing browser
+2026-05-21 09:31:30 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:31:30 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:31:31 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:31:31 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:31:31 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:31:33 [INFO] conftest - Browser created: chrome
+2026-05-21 09:31:33 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:31:34 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:31:34 [INFO] test_login - TC005: Logout Test
+2026-05-21 09:31:34 [INFO] pages.login_page - Performing login with user: pavanol
+2026-05-21 09:31:34 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:31:34 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:31:34 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:31:34 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:31:35 [INFO] pages.login_page - Entering username: pavanol
+2026-05-21 09:31:35 [INFO] pages.base_page - Entering text 'pavanol' into: ('id', 'loginusername')
+2026-05-21 09:31:35 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:31:35 [INFO] pages.login_page - Entering password
+2026-05-21 09:31:35 [INFO] pages.base_page - Entering text 'test@123' into: ('id', 'loginpassword')
+2026-05-21 09:31:36 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:31:36 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:31:36 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:31:36 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:31:36 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:31:38 [INFO] pages.login_page - Checking if user is logged in
+2026-05-21 09:31:38 [INFO] pages.base_page - Element is visible: ('id', 'nameofuser')
+2026-05-21 09:31:38 [INFO] pages.login_page - Performing logout
+2026-05-21 09:31:38 [INFO] pages.base_page - Clicking element: ('id', 'logout2')
+2026-05-21 09:31:38 [INFO] pages.base_page - Clicked element: ('id', 'logout2')
+2026-05-21 09:31:38 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:31:39 [INFO] pages.login_page - Logout successful
+2026-05-21 09:31:44 [INFO] pages.base_page - Element is NOT visible: ('id', 'login2')
+2026-05-21 09:31:45 [INFO] utilities.screenshot_util - Screenshot saved: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/21FebPythonFramewrk/screenshots/test_logout_20260521_093144.png
+2026-05-21 09:31:45 [ERROR] conftest - TEST FAILED: test_logout - Screenshot: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/21FebPythonFramewrk/screenshots/test_logout_20260521_093144.png
+2026-05-21 09:31:45 [INFO] conftest - Closing browser
+2026-05-21 09:31:46 [INFO] conftest - ============================================================
+2026-05-21 09:31:46 [INFO] conftest - TEST EXECUTION SUMMARY
+2026-05-21 09:31:46 [INFO] conftest - Total: 3 | Passed: 2 | Failed: 1 | Skipped: 0
+2026-05-21 09:31:46 [INFO] conftest - ============================================================
+2026-05-21 09:32:24 [INFO] root - Logger initialized successfully
+2026-05-21 09:32:24 [INFO] root - Logger initialized successfully
+2026-05-21 09:32:24 [INFO] conftest - Output directories created
+2026-05-21 09:32:24 [INFO] conftest - ============================================================
+2026-05-21 09:32:24 [INFO] conftest - TEST EXECUTION SUMMARY
+2026-05-21 09:32:24 [INFO] conftest - Total: 0 | Passed: 0 | Failed: 0 | Skipped: 0
+2026-05-21 09:32:24 [INFO] conftest - ============================================================
+2026-05-21 09:32:37 [INFO] root - Logger initialized successfully
+2026-05-21 09:32:37 [INFO] root - Logger initialized successfully
+2026-05-21 09:32:37 [INFO] conftest - Output directories created
+2026-05-21 09:32:37 [INFO] conftest - ============================================================
+2026-05-21 09:32:37 [INFO] conftest - TEST EXECUTION SUMMARY
+2026-05-21 09:32:37 [INFO] conftest - Total: 0 | Passed: 0 | Failed: 0 | Skipped: 0
+2026-05-21 09:32:37 [INFO] conftest - ============================================================
+2026-05-21 09:33:14 [INFO] root - Logger initialized successfully
+2026-05-21 09:33:14 [INFO] root - Logger initialized successfully
+2026-05-21 09:33:14 [INFO] conftest - Output directories created
+2026-05-21 09:33:14 [INFO] conftest - ============================================================
+2026-05-21 09:33:14 [INFO] conftest - TEST EXECUTION SUMMARY
+2026-05-21 09:33:14 [INFO] conftest - Total: 0 | Passed: 0 | Failed: 0 | Skipped: 0
+2026-05-21 09:33:14 [INFO] conftest - ============================================================
+2026-05-21 09:34:29 [INFO] root - Logger initialized successfully
+2026-05-21 09:34:29 [INFO] root - Logger initialized successfully
+2026-05-21 09:34:29 [INFO] conftest - Output directories created
+2026-05-21 09:34:29 [INFO] conftest - ============================================================
+2026-05-21 09:34:29 [INFO] conftest - TEST EXECUTION SUMMARY
+2026-05-21 09:34:29 [INFO] conftest - Total: 0 | Passed: 0 | Failed: 0 | Skipped: 0
+2026-05-21 09:34:29 [INFO] conftest - ============================================================
+2026-05-21 09:35:14 [INFO] root - Logger initialized successfully
+2026-05-21 09:35:14 [INFO] root - Logger initialized successfully
+2026-05-21 09:35:14 [INFO] conftest - Output directories created
+2026-05-21 09:35:14 [INFO] conftest - ============================================================
+2026-05-21 09:35:14 [INFO] conftest - TEST EXECUTION SUMMARY
+2026-05-21 09:35:14 [INFO] conftest - Total: 0 | Passed: 0 | Failed: 0 | Skipped: 0
+2026-05-21 09:35:14 [INFO] conftest - ============================================================
+2026-05-21 09:36:39 [INFO] root - Logger initialized successfully
+2026-05-21 09:36:39 [INFO] root - Logger initialized successfully
+2026-05-21 09:36:39 [INFO] conftest - Output directories created
+2026-05-21 09:36:39 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:36:39 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:36:40 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:36:40 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:36:40 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:36:43 [INFO] conftest - Browser created: chrome
+2026-05-21 09:36:43 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:36:45 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:36:45 [INFO] test_login - TC001: Valid Login Test
+2026-05-21 09:36:45 [INFO] pages.login_page - Performing login with user: pavanol
+2026-05-21 09:36:45 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:36:45 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:36:45 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:36:45 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:36:46 [INFO] pages.login_page - Entering username: pavanol
+2026-05-21 09:36:46 [INFO] pages.base_page - Entering text 'pavanol' into: ('id', 'loginusername')
+2026-05-21 09:36:46 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:36:46 [INFO] pages.login_page - Entering password
+2026-05-21 09:36:46 [INFO] pages.base_page - Entering text 'test@123' into: ('id', 'loginpassword')
+2026-05-21 09:36:46 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:36:46 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:36:46 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:36:46 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:36:46 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:36:48 [INFO] pages.login_page - Checking if user is logged in
+2026-05-21 09:36:48 [INFO] pages.base_page - Element is visible: ('id', 'nameofuser')
+2026-05-21 09:36:48 [INFO] pages.login_page - Getting welcome message
+2026-05-21 09:36:48 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:36:50 [INFO] pages.base_page - Getting text from: ('id', 'nameofuser')
+2026-05-21 09:36:50 [INFO] pages.base_page - Text found: 'Welcome pavanol'
+2026-05-21 09:36:50 [INFO] test_login - TC001: PASSED - Valid login successful
+2026-05-21 09:36:50 [INFO] conftest - Closing browser
+2026-05-21 09:36:50 [INFO] conftest - ============================================================
+2026-05-21 09:36:50 [INFO] conftest - TEST EXECUTION SUMMARY
+2026-05-21 09:36:50 [INFO] conftest - Total: 1 | Passed: 1 | Failed: 0 | Skipped: 0
+2026-05-21 09:36:50 [INFO] conftest - ============================================================

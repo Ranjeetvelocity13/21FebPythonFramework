@@ -1,0 +1,16 @@
+2026-05-21 09:18:10 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:18:10 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:18:11 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:18:11 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:18:11 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:18:13 [INFO] conftest - Browser created: chrome
+2026-05-21 09:18:13 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:18:15 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:18:15 [INFO] test_e2e - TC014: Verify Navigation Menu Test
+2026-05-21 09:18:15 [INFO] pages.base_page - Element is visible: ('xpath', "//a[contains(@class,'nav-link') and text()='Home ']")
+2026-05-21 09:18:15 [INFO] pages.base_page - Element is visible: ('xpath', "//a[text()='Contact']")
+2026-05-21 09:18:15 [INFO] pages.base_page - Element is visible: ('id', 'cartur')
+2026-05-21 09:18:15 [INFO] pages.home_page - Navigation - Home: True, Contact: True, Cart: True
+2026-05-21 09:18:15 [INFO] pages.base_page - Element is visible: ('id', 'carouselExampleIndicators')
+2026-05-21 09:18:15 [INFO] test_e2e - TC014: PASSED - Navigation menu verified
+2026-05-21 09:18:15 [INFO] conftest - Closing browser

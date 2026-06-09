@@ -1,0 +1,44 @@
+2026-05-21 09:23:06 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:23:06 [INFO] WDM - xdist worker is: gw2
+2026-05-21 09:23:06 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:23:07 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:07 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:07 [INFO] WDM - There is no [mac64] chromedriver "148.0.7778.178" for browser google-chrome "148.0.7778" in cache
+2026-05-21 09:23:07 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:07 [INFO] WDM - WebDriver version 148.0.7778.178 selected
+2026-05-21 09:23:07 [INFO] WDM - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-21 09:23:07 [INFO] WDM - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-21 09:23:07 [INFO] WDM - Driver downloading response is 200
+2026-05-21 09:23:17 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:17 [INFO] WDM - Driver has been saved in cache [/Users/ranjeetkendre/.wdm/gw2/drivers/chromedriver/mac64/148.0.7778.178]
+2026-05-21 09:23:20 [INFO] conftest - Browser created: chrome
+2026-05-21 09:23:20 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:23:21 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:23:21 [INFO] test_contact - TC015: Contact Form Submission Test
+2026-05-21 09:23:21 [INFO] utilities.random_data_generator - Generated email: test_luvkd_092321@test.com
+2026-05-21 09:23:21 [INFO] utilities.random_data_generator - Generated name: David
+2026-05-21 09:23:21 [INFO] pages.home_page - Clicking Contact link
+2026-05-21 09:23:21 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Contact']")
+2026-05-21 09:23:22 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Contact']")
+2026-05-21 09:23:22 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:23:23 [INFO] pages.contact_page - Filling and sending contact form
+2026-05-21 09:23:23 [INFO] pages.contact_page - Entering contact email: test_luvkd_092321@test.com
+2026-05-21 09:23:23 [INFO] pages.base_page - Entering text 'test_luvkd_092321@test.com' into: ('id', 'recipient-email')
+2026-05-21 09:23:24 [INFO] pages.base_page - Text entered successfully: ('id', 'recipient-email')
+2026-05-21 09:23:24 [INFO] pages.contact_page - Entering contact name: David
+2026-05-21 09:23:24 [INFO] pages.base_page - Entering text 'David' into: ('id', 'recipient-name')
+2026-05-21 09:23:25 [INFO] pages.base_page - Text entered successfully: ('id', 'recipient-name')
+2026-05-21 09:23:25 [INFO] pages.contact_page - Entering message: This is an automated test message for contact form...
+2026-05-21 09:23:25 [INFO] pages.base_page - Entering text 'This is an automated test message for contact form validation.' into: ('id', 'message-text')
+2026-05-21 09:23:25 [INFO] pages.base_page - Text entered successfully: ('id', 'message-text')
+2026-05-21 09:23:25 [INFO] pages.contact_page - Clicking Send message button
+2026-05-21 09:23:25 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Send message']")
+2026-05-21 09:23:26 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Send message']")
+2026-05-21 09:23:26 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:23:27 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:23:27 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:23:27 [INFO] pages.base_page - Alert accepted. Text was: 'Thanks for the message!!'
+2026-05-21 09:23:27 [INFO] pages.contact_page - Contact alert: Thanks for the message!!
+2026-05-21 09:23:27 [INFO] test_contact - Contact form alert: Thanks for the message!!
+2026-05-21 09:23:27 [INFO] test_contact - TC015: PASSED - Contact form submitted successfully
+2026-05-21 09:23:27 [INFO] conftest - Closing browser

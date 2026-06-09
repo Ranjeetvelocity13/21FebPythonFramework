@@ -1,0 +1,25 @@
+2026-05-21 09:20:50 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:20:50 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:20:50 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:20:50 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:20:50 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:20:52 [INFO] conftest - Browser created: chrome
+2026-05-21 09:20:52 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:20:54 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:20:54 [INFO] test_product - TC013: Verify Product Details Test
+2026-05-21 09:20:54 [INFO] pages.home_page - Selecting product: Samsung galaxy s6
+2026-05-21 09:20:54 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:20:55 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:20:55 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:20:56 [INFO] pages.base_page - Element is visible: ('css selector', '.name')
+2026-05-21 09:20:56 [INFO] pages.product_page - Getting product title
+2026-05-21 09:20:56 [INFO] pages.base_page - Getting text from: ('css selector', '.name')
+2026-05-21 09:20:56 [INFO] pages.base_page - Text found: 'Samsung galaxy s6'
+2026-05-21 09:20:56 [INFO] test_product - Product title: Samsung galaxy s6
+2026-05-21 09:20:56 [INFO] pages.product_page - Getting product price
+2026-05-21 09:20:56 [INFO] pages.base_page - Getting text from: ('css selector', '.price-container')
+2026-05-21 09:20:56 [INFO] pages.base_page - Text found: '$360 *includes tax'
+2026-05-21 09:20:56 [INFO] pages.product_page - Raw price text: $360 *includes tax
+2026-05-21 09:20:56 [INFO] test_product - Product price: $360 *includes tax
+2026-05-21 09:20:56 [INFO] test_product - TC013: PASSED - Product details verified
+2026-05-21 09:20:56 [INFO] conftest - Closing browser

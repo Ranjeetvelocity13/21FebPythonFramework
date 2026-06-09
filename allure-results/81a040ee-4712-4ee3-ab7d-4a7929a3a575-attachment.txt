@@ -1,0 +1,31 @@
+2026-05-21 09:24:25 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:24:25 [INFO] WDM - xdist worker is: gw2
+2026-05-21 09:24:25 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:24:25 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:25 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:25 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/gw2/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:24:27 [INFO] conftest - Browser created: chrome
+2026-05-21 09:24:27 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:24:30 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:24:30 [INFO] test_login - TC004: Blank Password Test
+2026-05-21 09:24:30 [INFO] pages.login_page - Performing login with user: pavanol
+2026-05-21 09:24:30 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:24:30 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:24:30 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:24:30 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:31 [INFO] pages.login_page - Entering username: pavanol
+2026-05-21 09:24:31 [INFO] pages.base_page - Entering text 'pavanol' into: ('id', 'loginusername')
+2026-05-21 09:24:31 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:24:31 [INFO] pages.login_page - Entering password
+2026-05-21 09:24:31 [INFO] pages.base_page - Entering text '' into: ('id', 'loginpassword')
+2026-05-21 09:24:31 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:24:31 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:24:31 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:24:32 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:24:32 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:24:34 [INFO] pages.login_page - Getting alert message
+2026-05-21 09:24:34 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:24:34 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:24:34 [INFO] pages.base_page - Alert accepted. Text was: 'Please fill out Username and Password.'
+2026-05-21 09:24:34 [INFO] test_login - TC004: PASSED - Blank password shows error
+2026-05-21 09:24:34 [INFO] conftest - Closing browser

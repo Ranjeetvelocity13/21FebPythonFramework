@@ -1,0 +1,33 @@
+2026-05-21 09:24:01 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:24:01 [INFO] WDM - xdist worker is: gw1
+2026-05-21 09:24:01 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:24:01 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:01 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:02 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/gw1/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:24:03 [INFO] conftest - Browser created: chrome
+2026-05-21 09:24:03 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:24:04 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:24:04 [INFO] test_login - TC001: Valid Login Test
+2026-05-21 09:24:04 [INFO] pages.login_page - Performing login with user: pavanol
+2026-05-21 09:24:04 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:24:04 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:24:06 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:24:06 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:07 [INFO] pages.login_page - Entering username: pavanol
+2026-05-21 09:24:07 [INFO] pages.base_page - Entering text 'pavanol' into: ('id', 'loginusername')
+2026-05-21 09:24:07 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:24:07 [INFO] pages.login_page - Entering password
+2026-05-21 09:24:07 [INFO] pages.base_page - Entering text 'test@123' into: ('id', 'loginpassword')
+2026-05-21 09:24:07 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:24:07 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:24:07 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:24:07 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:24:07 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:24:09 [INFO] pages.login_page - Checking if user is logged in
+2026-05-21 09:24:11 [INFO] pages.base_page - Element is visible: ('id', 'nameofuser')
+2026-05-21 09:24:11 [INFO] pages.login_page - Getting welcome message
+2026-05-21 09:24:11 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:24:13 [INFO] pages.base_page - Getting text from: ('id', 'nameofuser')
+2026-05-21 09:24:13 [INFO] pages.base_page - Text found: 'Welcome pavanol'
+2026-05-21 09:24:13 [INFO] test_login - TC001: PASSED - Valid login successful
+2026-05-21 09:24:13 [INFO] conftest - Closing browser

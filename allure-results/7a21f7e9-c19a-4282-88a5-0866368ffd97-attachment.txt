@@ -1,0 +1,38 @@
+2026-05-21 09:15:19 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:15:19 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:15:21 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:15:21 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:15:21 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:15:21 [INFO] WDM - WebDriver version 148.0.7778.178 selected
+2026-05-21 09:15:21 [INFO] WDM - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-21 09:15:21 [INFO] WDM - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-21 09:15:21 [INFO] WDM - Driver downloading response is 200
+2026-05-21 09:15:23 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:15:23 [INFO] WDM - Driver has been saved in cache [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178]
+2026-05-21 09:15:26 [INFO] conftest - Browser created: chrome
+2026-05-21 09:15:26 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:15:27 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:15:27 [INFO] test_login - TC001: Valid Login Test
+2026-05-21 09:15:27 [INFO] pages.login_page - Performing login with user: pavanol
+2026-05-21 09:15:27 [INFO] pages.login_page - Opening login modal
+2026-05-21 09:15:27 [INFO] pages.base_page - Clicking element: ('id', 'login2')
+2026-05-21 09:15:28 [INFO] pages.base_page - Clicked element: ('id', 'login2')
+2026-05-21 09:15:28 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:15:29 [INFO] pages.login_page - Entering username: pavanol
+2026-05-21 09:15:29 [INFO] pages.base_page - Entering text 'pavanol' into: ('id', 'loginusername')
+2026-05-21 09:15:29 [INFO] pages.base_page - Text entered successfully: ('id', 'loginusername')
+2026-05-21 09:15:29 [INFO] pages.login_page - Entering password
+2026-05-21 09:15:29 [INFO] pages.base_page - Entering text 'test@123' into: ('id', 'loginpassword')
+2026-05-21 09:15:29 [INFO] pages.base_page - Text entered successfully: ('id', 'loginpassword')
+2026-05-21 09:15:29 [INFO] pages.login_page - Clicking login button
+2026-05-21 09:15:29 [INFO] pages.base_page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:15:29 [INFO] pages.base_page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-21 09:15:29 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:15:31 [INFO] pages.login_page - Checking if user is logged in
+2026-05-21 09:15:31 [INFO] pages.base_page - Element is visible: ('id', 'nameofuser')
+2026-05-21 09:15:31 [INFO] pages.login_page - Getting welcome message
+2026-05-21 09:15:31 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:15:33 [INFO] pages.base_page - Getting text from: ('id', 'nameofuser')
+2026-05-21 09:15:33 [INFO] pages.base_page - Text found: 'Welcome pavanol'
+2026-05-21 09:15:33 [INFO] test_login - TC001: PASSED - Valid login successful
+2026-05-21 09:15:33 [INFO] conftest - Closing browser

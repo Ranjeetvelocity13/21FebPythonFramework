@@ -1,0 +1,24 @@
+2026-05-21 09:24:09 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:24:09 [INFO] WDM - xdist worker is: gw3
+2026-05-21 09:24:09 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:24:10 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:11 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:24:11 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/gw3/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:24:13 [INFO] conftest - Browser created: chrome
+2026-05-21 09:24:13 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:24:14 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:24:14 [INFO] test_product - TC006: Add Single Product Test
+2026-05-21 09:24:14 [INFO] pages.home_page - Selecting product: Samsung galaxy s6
+2026-05-21 09:24:14 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:24:20 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-21 09:24:20 [WARNING] pages.base_page - Hard wait: 1 seconds (avoid in production code)
+2026-05-21 09:24:21 [INFO] pages.product_page - Adding product to cart
+2026-05-21 09:24:21 [INFO] pages.base_page - Clicking element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:24:21 [INFO] pages.base_page - Clicked element: ('xpath', "//a[text()='Add to cart']")
+2026-05-21 09:24:21 [WARNING] pages.base_page - Hard wait: 2 seconds (avoid in production code)
+2026-05-21 09:24:23 [INFO] pages.base_page - Accepting alert
+2026-05-21 09:24:23 [INFO] pages.base_page - Waiting for alert
+2026-05-21 09:24:23 [INFO] pages.base_page - Alert accepted. Text was: 'Product added'
+2026-05-21 09:24:23 [INFO] pages.product_page - Cart alert: Product added
+2026-05-21 09:24:23 [INFO] test_product - TC006: PASSED - Single product added to cart
+2026-05-21 09:24:23 [INFO] conftest - Closing browser

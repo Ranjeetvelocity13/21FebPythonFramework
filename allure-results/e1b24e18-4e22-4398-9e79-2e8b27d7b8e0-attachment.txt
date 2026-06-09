@@ -1,0 +1,19 @@
+2026-05-21 09:23:39 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-21 09:23:39 [INFO] WDM - xdist worker is: gw2
+2026-05-21 09:23:39 [INFO] WDM - ====== WebDriver manager ======
+2026-05-21 09:23:40 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:40 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-21 09:23:41 [INFO] WDM - Driver [/Users/ranjeetkendre/.wdm/gw2/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-21 09:23:42 [INFO] conftest - Browser created: chrome
+2026-05-21 09:23:43 [INFO] utilities.config_reader - Config loaded for environment: qa
+2026-05-21 09:23:44 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-21 09:23:44 [INFO] test_e2e - TC018: Cross Browser Test
+2026-05-21 09:23:49 [INFO] pages.base_page - Element is visible: ('id', 'carouselExampleIndicators')
+2026-05-21 09:23:49 [INFO] pages.base_page - Page title: STORE
+2026-05-21 09:23:49 [INFO] test_e2e - Page title: STORE
+2026-05-21 09:23:49 [INFO] pages.base_page - Element is visible: ('xpath', "//a[text()='Phones']")
+2026-05-21 09:23:49 [INFO] pages.base_page - Element is visible: ('xpath', "//a[text()='Laptops']")
+2026-05-21 09:23:49 [INFO] pages.base_page - Element is visible: ('xpath', "//a[text()='Monitors']")
+2026-05-21 09:23:49 [INFO] pages.home_page - Categories visible - Phones: True, Laptops: True, Monitors: True
+2026-05-21 09:23:49 [INFO] test_e2e - TC018: PASSED - Cross browser verification complete
+2026-05-21 09:23:49 [INFO] conftest - Closing browser
