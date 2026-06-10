@@ -427,6 +427,7 @@ class BasePage:
     # =========================================================
     # UTILITY METHODS
     # =========================================================
+    # =========================================================
 
     def generate_random_number(self, min_val=1000, max_val=9999):
         """Generate a random number between min and max"""
